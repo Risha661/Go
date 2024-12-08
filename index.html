@@ -66,5 +66,33 @@
       <li><a href="https://vk.com">Vkontakte</a></li>
       <li><a href="https://web.telegram.org/k/">Telegram</a></li>
     </ul>
+    <form id="check-contacts" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+      <fieldset>
+          <h3>Заказать звонок</h3>
+          <fieldset>
+            <label>Имя
+              <input type="text" name="name" required placeholder="Введите ваше имя">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Фамилия
+              <input type="text" name="surname" required placeholder="Введите фамилию">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>Номер телефона
+              <input type="tel" name="tel" required placeholder="Введите номер телефона">
+            </label>
+          </fieldset>
+          <fieldset>
+            <label>
+              <input type="checkbox" name="info">
+              Согласен на обработку данных</label>
+              <label>
+                <button type="submit" name="button">Перезвоните мне</button>
+              </label>
+          </fieldset>
+      </fieldset>
+    </form>
   </footer>
 </body>
