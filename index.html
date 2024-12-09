@@ -55,19 +55,19 @@
         <fieldset>
           <legend>Выбери один из залов</legend>
           <label>
-            <input type="checkbox" value="1" name="80vibes">
+            <input type="radio" value="80vibes" name="cinema-hall">
             80's vibes
           </label>
           <label>
-            <input type="checkbox" value="2" name="star-wars">
+            <input type="radio" value="star-wars" name="cinema-hall">
             Star wars
           </label>
           <label>
-            <input type="checkbox" value="3" name="wild-west">
+            <input type="radio" value="wild-west" name="cinema-hall">
             Wild west
           </label>
           <label>
-            <input type="checkbox" value="4" name="neon-style">
+            <input type="radio" value="neon-style" name="cinema-hall">
             Neon style
           </label>
         </fieldset>
@@ -76,19 +76,19 @@
           <fieldset>
             <legend>Приставка</legend>
             <label>
-              <input type="checkbox" name="playstation">
+              <input type="radio" name="console-game" value="playstation">
               PlayStation
             </label>
             <label>
-              <input type="checkbox" name="sega">
+              <input type="radio" name="console-game" value="sega">
               Sega Mega Drive
             </label>
             <label>
-              <input type="checkbox" name="x-box">
+              <input type="radio" name="console-game" value="x-box">
               X-box One S
             </label>
             <label>
-              <input type="checkbox" name="dendy">
+              <input type="radio" name="console-game" value="dendy">
               Dendy
             </label>
           </fieldset>
@@ -114,7 +114,7 @@
           <fieldset>
             <legend>Дополнительно</legend>
             <label>
-              <input type="checkbox" name="song">
+              <input type="checkbox" name="karaoke">
               Караоке
             </label>
             <label>
@@ -143,14 +143,14 @@
               <input type="tel" name="tel" placeholder="Введите номер телефона" required>
             </label>
             <label>
-              <input type="checkbox" name="checkbox">
+              <input type="checkbox" name="age">
               Я старше 18 лет
             </label>
           </fieldset>
         </fieldset>
         <button type="submit">Забронировать</button>
         <label>
-          <input type="checkbox" name="checkbox">
+          <input type="checkbox" name="booking">
           Согласен на обработку данных
         </label>
       </fieldset>
@@ -192,11 +192,9 @@
           </fieldset>
           <fieldset>
             <label>
-              <input type="checkbox" name="info">
+              <input type="checkbox" name="order-call">
               Согласен на обработку данных</label>
-              <label>
-                <button type="submit" name="button">Перезвоните мне</button>
-              </label>
+                <button type="submit">Перезвоните мне</button>
           </fieldset>
       </fieldset>
     </form>
