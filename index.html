@@ -95,30 +95,30 @@
           <fieldset>
             <legend>Настольные игры</legend>
             <label>
-              <input type="checkbox" name="jenga">
+              <input type="checkbox" name="board-games" value="jenga">
               Jenga
             </label>
             <label>
-              <input type="checkbox" name="monopoly">
+              <input type="checkbox" name="board-games" value="monopoly">
               Monopoly
             </label>
             <label>
-              <input type="checkbox" name="manchkin">
+              <input type="checkbox" name="board-games" value="manchkin">
               Манчкин
             </label>
             <label>
-              <input type="checkbox" name="alias">
+              <input type="checkbox" name="board-games" value="alias">
               Alias
             </label>
           </fieldset>
           <fieldset>
             <legend>Дополнительно</legend>
             <label>
-              <input type="checkbox" name="karaoke">
+              <input type="checkbox" name="additionaly" value="karaoke">
               Караоке
             </label>
             <label>
-              <input type="checkbox" name="vr">
+              <input type="checkbox" name="additionaly" value="vr">
               VR
             </label>
           </fieldset>
@@ -173,30 +173,20 @@
       <li><a href="https://web.telegram.org/k/">Telegram</a></li>
     </ul>
     <form id="check-contacts" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-      <fieldset>
-          <h3>Заказать звонок</h3>
-          <fieldset>
-            <label>Имя
-              <input type="text" name="name" required placeholder="Введите ваше имя">
-            </label>
-          </fieldset>
-          <fieldset>
-            <label>Фамилия
-              <input type="text" name="surname" required placeholder="Введите фамилию">
-            </label>
-          </fieldset>
-          <fieldset>
-            <label>Номер телефона
-              <input type="tel" name="tel" required placeholder="Введите номер телефона">
-            </label>
-          </fieldset>
-          <fieldset>
-            <label>
-              <input type="checkbox" name="order-call">
-              Согласен на обработку данных</label>
-                <button type="submit">Перезвоните мне</button>
-          </fieldset>
-      </fieldset>
+      <h3>Заказать звонок</h3>
+        <label>Имя
+          <input type="text" name="name" required placeholder="Введите ваше имя">
+        </label>
+        <label>Фамилия
+          <input type="text" name="surname" required placeholder="Введите фамилию">
+        </label>
+        <label>Номер телефона
+          <input type="tel" name="tel" required placeholder="Введите номер телефона">
+        </label>
+        <label>
+          <input type="checkbox" name="order-call">
+          Согласен на обработку данных</label>
+          <button type="submit">Перезвоните мне</button>
     </form>
   </footer>
 </body>
