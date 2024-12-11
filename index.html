@@ -58,20 +58,19 @@
     <section>
       <h2 id="check">Забронировать зал просто</h2>
       <form method="POST" action="https://jsonplaceholder.typicode.com/posts">
-        <fieldset>
           <fieldset>
             <legend>Выбери зал</legend>
             <label>
-              <input type="button" value="80's vibes" name="cinema-hall">             
+              <input type="radio" value="80's vibes" name="cinema-hall">80's vibes             
             </label>
             <label>
-              <input type="button" value="Star wars" name="cinema-hall">             
+              <input type="radio" value="Star wars" name="cinema-hall">Star wars             
             </label>
             <label>
-              <input type="button" value="Wild west" name="cinema-hall">             
+              <input type="radio" value="Wild west" name="cinema-hall">Wild west             
             </label>
             <label>
-              <input type="button" value="Neon style" name="cinema-hall">
+              <input type="radio" value="Neon style" name="cinema-hall">Neon style
             </label>
           </fieldset>
           <fieldset>
@@ -134,21 +133,9 @@
             <label>Время*
               <input type="time" name="time" required>
             </label>
-            <fieldset>
-              <legend>Количество человек*</legend>
-              <select required name="sum-people" placeholder="Сколько человек">
-                <option value="zero" selected>Сколько человек</option>
-                <option value="one">1</option>
-                <option value="two">2</option>
-                <option value="three">3</option>
-                <option value="four">4</option>
-                <option value="five">5</option>
-                <option value="six">6</option>
-                <option value="seven">7</option>
-                <option value="eight">8</option>
-                <option value="nine">9</option>
-              </select>
-            </fieldset>
+              <label>Количество человек*
+                <input type="numeric" name="sum-people" required placeholder="Сколько человек">
+              </label>
             <label>Имя*
               <input type="text" name="name" placeholder="Введите имя" required>
             </label>
@@ -160,7 +147,6 @@
             </label>
             <button type="submit">Забронировать</button>
           </fieldset> 
-        </fieldset>
       </form>
     </section>
     <section>
@@ -196,36 +182,39 @@
           </figure>
           <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в атмосферу космоса.</p>
         </li>
-        </p>
       </ul>
     </section>
   </main>
   <footer>
-    <h2 id="contacts">Контакты</h2>
-    <p>г. Москва, ул. Аквамарина, 16</p>
-    <address>
-      <a href="tel:89509302893">8(950)930-28-93</a>
-      <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
-    </address>
-    <ul>
-      <li><a href="https://vk.com">Vkontakte</a></li>
-      <li><a href="https://web.telegram.org/k/">Telegram</a></li>
-    </ul>
-    <form id="check-contacts" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-      <h3>Заказать звонок</h3>
-        <label>Имя
-          <input type="text" name="name" required placeholder="Введите ваше имя">
-        </label>
-        <label>Фамилия
-          <input type="text" name="surname" required placeholder="Введите фамилию">
-        </label>
-        <label>Номер телефона
-          <input type="tel" name="tel" required placeholder="Введите номер телефона">
-        </label>
-        <label>
-          <input type="checkbox" name="order-call">
-          Согласен на обработку данных</label>
-          <button type="submit">Перезвоните мне</button>
-    </form>
+    <section>
+      <h2 id="contacts">Контакты</h2>     
+      <address>
+        <p>г. Москва, ул. Аквамарина, 16</p>
+        <a href="tel:89509302893">8(950)930-28-93</a>
+        <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+      </address>
+      <ul>
+        <li><a href="https://vk.com">Vkontakte</a></li>
+        <li><a href="https://web.telegram.org/k/">Telegram</a></li>
+      </ul>
+    </section>
+    <section>
+      <form id="check-contacts" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <h2>Заказать звонок</h2>
+          <label>Имя
+            <input type="text" name="name" required placeholder="Введите ваше имя">
+          </label>
+          <label>Фамилия
+            <input type="text" name="surname" required placeholder="Введите фамилию">
+          </label>
+          <label>Номер телефона
+            <input type="tel" name="tel" required placeholder="Введите номер телефона">
+          </label>
+          <label>
+            <input type="checkbox" name="order-call">
+            Согласен на обработку данных</label>
+            <button type="submit">Перезвоните мне</button>
+      </form>
+    </section> 
   </footer>
 </body>
