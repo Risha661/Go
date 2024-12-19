@@ -4,7 +4,14 @@
 
 body {
   background-color: #1b1a1b;
-  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 #about {
@@ -12,7 +19,23 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  width: 1180px;
   padding: 30px;
   margin: 0 auto;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2:first-child {
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
 }

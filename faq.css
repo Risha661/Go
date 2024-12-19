@@ -1,40 +1,104 @@
-.asks {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.faq__text {
+  line-height: 46px;
+}
+
+.faq__list {
+  list-style-type: none;
+}
+
+.faq__item {
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
   font-size: 24px;
+  line-height: 46px;
   padding: 30px 70px;
   margin-bottom: 20px;
 }
 
-.asks:nth-child(2n) {
+.faq__item:nth-child(2n) {
   background-color: #440F51;
-  color:#fff
+  color:#fff;
 }
 
-.asks-icon {
-  display: flex;
-  align-items: center;
-}
-
-.asks-icon::after {
+.faq__item::after {
   content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 46px;
+  height: 46px;
   background-image: url("./img/open-purple.svg");
+  float: right;
   background-size: contain;
 }
 
-.asks-icon:nth-child(2n)::after {
+.faq__item:nth-child(2n)::after {
   content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
   background-image: url("./img/open.svg");
-  background-size: contain;
 }
 
+.faq__blockq {
+  margin: 0;
+}
+
+.faq__text-slogan {
+  margin: 0;
+  width: 100%;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.faq__about {
+  margin-bottom: 70px;
+}
+
+.faq__quote::before {
+  content: "“ ";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.faq__quote::after {
+  content: " ”";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.faq__cite {
+  font-size: 20px;
+  text-align: left;
+  width: 280px;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+
+.faq__block {
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+}
+
+.faq__photo-block {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background: url("./img/img/arcadiyabakshin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+}
+
+.faq__cite-block {
+  display: inline-block;
+  width: 280px;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 30px;
+}

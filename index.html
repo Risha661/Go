@@ -9,8 +9,10 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <img src="/img/logo.svg" alt="logo">
+    <header class="header">
+      <h1 class="header__logo">GAME OVER</h1>
+      <p class="header__text">Новый формат игр и  отдыха</p>
+      <!-- <img src="/img/logo.svg" alt="logo">
       <h2>Меню</h2>
       <nav>
         <ul>
@@ -20,10 +22,10 @@
           <li><a href="#comments">Отзывы</a></li>
           <li><a href="#contacts">Контакты</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
     <main>
-      <section>
+      <!-- <section>
         <h2>У нас есть всё для классного отдыха с друзьями!</h2>
         <ul>
           <li>
@@ -46,18 +48,36 @@
             <p>Playstation 5</p>
           </li>
         </ul>
+      </section> -->
+      <section class="kinozal">
+        <h2 id="kinozal__text">Наши залы</h2>
+      <ul class="kinozal__list">
+        <li class="kinozal__item kinozal__item-vibes">
+          <a href="vibes.html" class="kinozal__link">
+            <p class="kinozal__link-text">80's 
+              vibes
+            </p>
+          </a>
+        </li>
+        <li class="kinozal__item kinozal__item-starwars">
+          <a href="starwars.html" class="kinozal__link">
+            <p class="kinozal__link-text">Star wars</p>
+          </a>
+        </li>
+        <li class="kinozal__item kinozal__item-wildwest">
+          <a href="wildwest.html" class="kinozal__link">
+            <p class="kinozal__link-text">Wild west</p>
+          </a>
+        </li>
+        <li class="kinozal__item kinozal__item-neon">
+          <a href="neon.html" class="kinozal__link">
+            <p class="kinozal__link-text">Neon style</p>
+          </a>
+        </li>
+      </ul>
       </section>
-      <section>
-        <h2 id="kinozal">Наши залы</h2>
-      <ol>
-        <li><a href="vibes.html">80's vibes</a></li>
-        <li><a href="starwars.html">Star wars</a></li>
-        <li><a href="wildwest.html">Wild west</a></li>
-        <li><a href="neon.html">Neon style</a></li>
-      </ol>
-      </section>
-      <section>
-        <h2 id="check">Забронировать зал просто</h2>
+      <section class="booking">
+        <h2 id="check">Забронировать</h2>
         <form method="POST" action="https://jsonplaceholder.typicode.com/posts">
             <fieldset>
               <legend>Выбери зал</legend>
@@ -135,7 +155,7 @@
                 <input type="time" name="time" required>
               </label>
                 <label>Количество человек*
-                  <input type="numeric" name="sum-people" required placeholder="Сколько человек">
+                  <input type="number" name="sum-people" placeholder="Сколько человек">
                 </label>
               <label>Имя*
                 <input type="text" name="name" placeholder="Введите имя" required>
@@ -150,13 +170,19 @@
             </fieldset> 
         </form>
       </section>
-      <section>
+      <section class="faq">
         <h2>О нас</h2>
         <p>Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-        <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-        <blockquote>
-          <p id="about">GAME OVER - это место незабываемых впечатлений</p>
-        <p><cite>Аркадий Абакшин, создатель игровой территории GAME OVER</cite></p>
+        <p class="faq__about">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+        <blockquote class="faq__blockq">
+          <p class="faq__text-slogan faq__quote">
+            GAME OVER —<br>
+            это место незабываемых впечатлений 
+          </p>
+          <div class="faq__block">
+            <div class="faq__photo-block"></div>
+            <cite class="faq__cite-block">Аркадий Абакшин,<br> создатель игровой территории GAME OVER</cite>
+          </div>
         </blockquote>
       </section>
       <section>
@@ -185,14 +211,14 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Частые вопросы</h2>
-        <ul>
-          <li class="asks asks-icon">Можно ли забронировать комнату онлайн?</li>
-          <li class="asks asks-icon">Могут ли мне вернуть деньги за бронь?</li>
-          <li class="asks asks-icon">Какая комната самая популярная?</li>
-          <li class="asks asks-icon">Как получить VIP карту?</li>
-          <li class="asks asks-icon">Какая комната самая популярная?</li>
+      <section class="faq">
+        <h2 class="faq__text">Частые вопросы</h2>
+        <ul class="faq__list">
+          <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
+          <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
+          <li class="faq__item">Какая комната самая популярная?</li>
+          <li class="faq__item">Как получить VIP карту?</li>
+          <li class="faq__item">Какая комната самая популярная?</li>
         </ul>
       </section>
     </main>
