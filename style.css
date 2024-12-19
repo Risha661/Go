@@ -33,7 +33,15 @@ h2 {
 }
 
 h2:first-child {
+  padding: 0;
+  margin: 0;
   margin-bottom: 60px;
+}
+
+h2:last-child {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 ul {

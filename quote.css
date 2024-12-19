@@ -1,0 +1,66 @@
+
+.quote__blockq {
+  margin: 0;
+  margin-bottom: 102px;
+}
+
+.quote__text-slogan {
+  margin: 0;
+  width: 100%;
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.quote__about {
+  margin-bottom: 70px;
+}
+
+.quote__quote::before {
+  content: "“ ";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.quote__quote::after {
+  content: " ”";
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.quote__cite {
+  font-size: 20px;
+  text-align: left;
+  width: 280px;
+  right: 0;
+  bottom: 0;
+}
+
+.quote__block {
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+}
+
+.quote__photo-block {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  background: url("./img/img/arcadiyabakshin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+}
+
+.quote__cite-block {
+  display: inline-block;
+  width: 280px;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 30px;
+}
