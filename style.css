@@ -1,10 +1,24 @@
-* {
+@import "/style.css";
+@import "/faq.css";
+@import "/header.css";
+@import "/main.css";
+@import "/footer.css";
+@import "/quote.css";
+
+html {
   box-sizing: border-box;
+  position: relative;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 body {
+  min-width: 320px;
+  min-height: 100vh;
   background-color: #1b1a1b;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   color: #fff;
@@ -14,11 +28,42 @@ body {
   margin-right: 130px;
 }
 
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p, figure, fieldset {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 #about {
   text-transform: uppercase;
 }
 
-.wrapper {
+.container {
   width: 1180px;
   padding: 30px;
   margin: 0 auto;
