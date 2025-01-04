@@ -1,7 +1,9 @@
 @import "/style.css";
 @import "/faq.css";
 @import "/header.css";
-@import "/main.css";
+@import "/start.css";
+@import "/booking.css";
+@import "/kinozal.css";
 @import "/footer.css";
 @import "/quote.css";
 
@@ -61,16 +63,20 @@ button {
   text-transform: uppercase;
 }
 
-.container {
-  max-width: 1180px;
-  padding: 30px;
-  margin: 0 auto;
-}
-
 h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
   text-align: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 0 auto;
 }

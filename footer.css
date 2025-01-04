@@ -1,5 +1,5 @@
 footer {
-  padding: 50px 0 21px 0;
+  padding: 50px 0 51px 0;
 }
 
 .footer__address {
@@ -44,11 +44,11 @@ footer {
 }
 
 .footer__contacts-block {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-bottom: 11px;
   position: relative;
+}
+
+.footer__contacts-block:not(:last-child) {
+  margin-bottom: 11px;
 }
 
 .footer__link-phone {
@@ -85,7 +85,10 @@ footer {
 .footer__list {
   margin: 0;
   padding: 0;
-  display: flex;
+}
+
+.footer__item {
+  display: inline-block;
 }
 
 .footer__item:not(:last-child) {

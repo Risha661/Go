@@ -9,7 +9,6 @@
     <title>GAME OVER</title>
 </head>
 <body>
-  <div class="container">
     <header class="header">
       
       <!-- <img src="/img/logo.svg" alt="logo">
@@ -26,8 +25,10 @@
     </header>
     <main>
       <section class="start">
-        <h1 class="start__title">GAME OVER</h1>
-        <p class="start__text">Новый формат игр и  отдыха</p>
+        <div class="container start__container">
+          <h1 class="start__title">GAME OVER</h1>
+          <p class="start__text">Новый формат игр и  отдыха</p>
+        </div>
       </section>
       <!-- <section>
         <h2>У нас есть всё для классного отдыха с друзьями!</h2>
@@ -54,7 +55,8 @@
         </ul>
       </section> -->
       <section class="kinozal">
-        <h2 id="kinozal__title">Наши залы</h2>
+        <div class="container">
+        <h2 class="kinozal__title" id="kinozal__title">Наши залы</h2>
       <ul class="kinozal__list">
         <li class="kinozal__item kinozal__item-vibes">
           <a href="vibes.html" class="kinozal__link">
@@ -79,10 +81,12 @@
           </a>
         </li>
       </ul>
+      </div>
       </section>
       <section class="booking">
+        <div class="container">
         <h2 class="booking__title" id="check">Забронировать</h2>
-        <form method="POST" action="https://jsonplaceholder.typicode.com/posts">
+          <form method="POST" action="https://jsonplaceholder.typicode.com/posts">
             <fieldset>
               <legend>Выбери зал</legend>
               <label>
@@ -172,22 +176,25 @@
               </label>
               <button type="submit">Забронировать</button>
             </fieldset> 
-        </form>
+          </form>
+        </div>
       </section>
       <section class="quote">
-        <h2 class="quote__title">О нас</h2>
-        <p class="quote__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-        <p class="quote__about">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
-        <blockquote class="quote__blockq">
-          <p class="quote__text-slogan quote__quote">
-            GAME OVER —<br>
-            это место незабываемых впечатлений 
-          </p>
-          <div class="quote__block">
-            <img class="quote__photo-img" alt="Фотография Аркадия Абакшина." src="./img/img/arcadiyabakshin.jpg">
-            <cite class="quote__cite-block">Аркадий Абакшин,<br> создатель игровой территории GAME OVER</cite>
-          </div>
-        </blockquote>
+        <div class="container">
+          <h2 class="quote__title">О нас</h2>
+          <p class="quote__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+          <p class="quote__about">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          <blockquote class="quote__blockq">
+            <p class="quote__text-slogan quote__quote">
+              GAME OVER —<br>
+              это место незабываемых впечатлений 
+            </p>
+            <div class="quote__block">
+              <img class="quote__photo-img" alt="Фотография Аркадия Абакшина." src="./img/img/arcadiyabakshin.jpg">
+              <cite class="quote__cite-block">Аркадий Абакшин,<br> создатель игровой территории GAME OVER</cite>
+            </div>
+          </blockquote>
+        </div>
       </section>
       <!-- <section>
         <h2 id="comments">Отзывы посетителей</h2>
@@ -216,18 +223,20 @@
         </ul>
       </section> -->
       <section class="faq">
-        <h2 class="faq__title">Частые вопросы</h2>
-        <ul class="faq__list">
-          <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
-          <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
-          <li class="faq__item">Какая комната самая популярная?</li>
-          <li class="faq__item">Как получить VIP карту?</li>
-          <li class="faq__item">Какая комната самая популярная?</li>
-        </ul>
+        <div class="container">
+          <h2 class="faq__title">Частые вопросы</h2>
+          <ul class="faq__list">
+            <li class="faq__item">Можно ли забронировать комнату онлайн?</li>
+            <li class="faq__item">Могут ли мне вернуть деньги за бронь?</li>
+            <li class="faq__item">Какая комната самая популярная?</li>
+            <li class="faq__item">Как получить VIP карту?</li>
+            <li class="faq__item">Какая комната самая популярная?</li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <div class="footer">
+    <footer class="footer">
+      <div class="container">
         <h2 id="contacts" class="footer__text-contacts">Контакты</h2>     
         <address class="footer__address">
           <div class="footer__location-block">
@@ -314,5 +323,4 @@
       </section>  -->
       </div>
     </footer>
-  </div>
 </body>
