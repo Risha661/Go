@@ -1,7 +1,19 @@
 
+.quote {
+  padding: 50px 0 50px 0;
+  min-height: 646px;
+}
+
 .quote__blockq {
   margin: 0;
-  margin-bottom: 102px;
+}
+
+.quote__title {
+  margin-bottom: 50px;
+}
+
+.quote__text {
+  margin-bottom: 20px;
 }
 
 .quote__text-slogan {
@@ -40,19 +52,15 @@
 }
 
 .quote__block {
-  display: flex;
+  float: right;
   justify-content: right;
-  padding-top: 40px;
 }
 
-.quote__photo-block {
+.quote__photo-img {
+  float: left;
   width: 80px;
   height: 80px;
-  border-radius: 80px;
-  background: url("./img/img/arcadiyabakshin.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top -10px;
+  border-radius: 50%;
 }
 
 .quote__cite-block {

@@ -1,7 +1,55 @@
 main {
-  width: 1180px;
   margin: 0;
   padding: 0;
+  width: 1180px;
+}
+
+.start {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 823px;
+  padding: 0 0 50px 0;
+  width: 1180px;
+  min-height: 823px;
+}
+
+.booking {
+  padding: 50px 0 50px 0;
+}
+
+.booking__title {
+  margin-bottom: 50px;
+}
+
+.start__title{
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 150px;
+}
+
+.start__text {
+  padding-left: 100px;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.start::after {
+  content: "";
+  background-image: url("./img/img/people.png");
+  background-size: cover;
+  width: 675px;
+  height: 762px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  filter: drop-shadow(0 -4px 15px rgba(0, 0, 0, 0.5));
+}
+
+.kinozal {
+  padding: 50px 0;
+  width: 1180px;
 }
 
 .kinozal__list {
@@ -10,15 +58,11 @@ main {
 }
 
 .kinozal__item {
-  width: 100%;
+  margin-top: 60px;
+  width: 1180px;
   height: 710px;
-  margin-bottom: 60px;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.kinozal__item:last-child {
-  margin-bottom: 100px;
 }
 
 .kinozal__item-vibes {
@@ -38,26 +82,21 @@ main {
 }
 
 .kinozal__link {
-  height: 710px;
-  display: flex;
-  justify-content: center;
+  display: block;
+  height: 100%;
   text-decoration: none;
   color: #fff;
   text-align: center;
+}
+
+.kinozal__link-text {
+  display: inline-block;
+  margin-top: calc((710px - 80px) / 2);
   font-family: Arial;
   font-size: 70px;
   font-style: normal;
   font-weight: 700;
   line-height: 80px;
+  max-width: 252px;
   text-transform: uppercase;
-}
-
-.kinozal__link-text {
-  padding: 0;
-  width: 252px;
-  height: 160px;
-  margin-top: 275px;
-  font-weight: 700;
-  font-size: 70px;
-  color: white;
 }
