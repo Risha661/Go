@@ -35,7 +35,7 @@
   content: "";
   width: 46px;
   height: 46px;
-  background-image: url("./img/img/plus-violet-icon.svg");
+  background-image: url("/img/img/plus-violet-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   top: calc(50% - 23px);
@@ -43,5 +43,5 @@
 }
 
 .faq__item:nth-child(2n)::after {
-  background-image: url("./img/img/plus-white-icon.svg");
+  background-image: url("/img/img/plus-white-icon.svg");
 }

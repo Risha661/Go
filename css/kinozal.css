@@ -19,19 +19,19 @@
 }
 
 .kinozal__item-vibes {
-  background-image: url("./img/img/80svibes.jpg");
+  background-image: url("/img/img/80svibes.jpg");
 }
 
 .kinozal__item-starwars {
-  background-image: url("./img/img/starwars.jpg");
+  background-image: url("/img/img/starwars.jpg");
 }
 
 .kinozal__item-wildwest {
-  background-image: url("./img/img/wildwest.jpg");
+  background-image: url("/img/img/wildwest.jpg");
 }
 
 .kinozal__item-neon {
-  background-image: url("./img/img/neonstyle.jpg");
+  background-image: url("/img/img/neonstyle.jpg");
 }
 
 .kinozal__link {

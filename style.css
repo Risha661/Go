@@ -1,11 +1,11 @@
 @import "/style.css";
-@import "/faq.css";
-@import "/header.css";
-@import "/start.css";
-@import "/booking.css";
-@import "/kinozal.css";
-@import "/footer.css";
-@import "/quote.css";
+@import "/css/faq.css";
+@import "/css/header.css";
+@import "/css/start.css";
+@import "/css/booking.css";
+@import "/css/kinozal.css";
+@import "/css/footer.css";
+@import "/css/quote.css";
 
 html {
   box-sizing: border-box;
