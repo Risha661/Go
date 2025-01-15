@@ -8,10 +8,8 @@
 }
 
 .kinozal__item {
-  width: 1180px;
-  min-height: 710px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .kinozal__item:not(:last-child) {
@@ -40,11 +38,11 @@
   text-decoration: none;
   color: #fff;
   text-align: center;
+  padding: 275px 0;
 }
 
 .kinozal__link-text {
   display: inline-block;
-  margin-top: calc((710px - 80px) / 2);
   font-family: Arial;
   font-size: 70px;
   font-style: normal;
