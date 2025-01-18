@@ -1,13 +1,26 @@
 .quote {
   overflow: hidden;
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
-.quote__blockq {
-  margin: 0;
+.quote__container-block {
+  display: flex;
+  vertical-align: top;
+}
+
+.quote__block-img {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.quote__block-text {
+  display: inline-block;
+  max-width: 500px;
 }
 
 .quote__title {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .quote__text {
@@ -16,17 +29,21 @@
 
 .quote__text-slogan {
   margin: 0;
-  width: 100%;
   font-style: normal;
   font-size: 44px;
   font-weight: 400;
   line-height: 50px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 39px;
 }
 
 .quote__about {
-  margin-bottom: 70px;
+  margin-bottom: 48px;
+}
+
+.quote__blockq {
+  margin: 0;
+  padding: 0;
 }
 
 .quote__quote::before {
@@ -43,32 +60,34 @@
 
 .quote__cite {
   font-size: 20px;
-  text-align: left;
-  width: 280px;
-  right: 0;
-  bottom: 0;
 }
 
 .quote__block {
-  float: right;
-  justify-content: right;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 111px;
 }
 
 .quote__photo-img {
-  display: inline-block;
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: top;
+  float: left;
+  margin-right: 29px;
 }
 
 .quote__cite-block {
   display: inline-block;
-  width: 280px;
+  max-width: 280px;
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  padding-left: 30px;
+  padding-left: 10px;
+}
+
+.quote__collage-img {
+  width: 600px;
+  height: auto;
 }
