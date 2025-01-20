@@ -1,19 +1,28 @@
 .kinozal__list {
   margin: 0;
   padding: 0;
+  width: 1180px;
 }
 
 .kinozal__title {
+  width: 1180px;
   margin-bottom: 60px;
 }
 
 .kinozal__item {
-  background-repeat: no-repeat;
-  background-size: cover;
+  float: left;
+  width: 580px;
+  height: 349px;
+  margin-bottom: 20px;
 }
 
-.kinozal__item:not(:last-child) {
-  margin-bottom: 60px;
+.kinozal__item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.kinozal__item:nth-child(3),
+.kinozal__item:nth-child(4) {
+  margin-bottom: 0;
 }
 
 .kinozal__item-vibes {
@@ -38,7 +47,7 @@
   text-decoration: none;
   color: #fff;
   text-align: center;
-  padding: 275px 0;
+  padding: 135px 0; 
 }
 
 .kinozal__link-text {
@@ -48,6 +57,12 @@
   font-style: normal;
   font-weight: 700;
   line-height: 80px;
-  max-width: 252px;
+  max-width: 448px;
   text-transform: uppercase;
+}
+
+.kinozal__list::after {
+  content: "";
+  display: table;
+  clear: both;
 }
