@@ -9,15 +9,18 @@ footer {
 .footer__location-block {
   margin: 0;
   padding: 0;
-  display: flex;
   margin-bottom: 38px;
 }
 
 .footer__location-text {
-  margin: 0;
-  padding: 0;
-  margin-left: 30px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
   position: relative;
+  max-width: 340px;
+  padding-left: 75px; /* Отступ для параграфа */
 }
 
 .footer__location-text::before {
@@ -29,18 +32,19 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  left: -30px;
+  left: 0; /* Позиционирование относительно параграфа */
   top: 50%;
   transform: translateY(-50%);
 }
 
-.footer__link, .footer__location-text {
+.footer__link {
   font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  padding-left: 30px;
+  padding-left: 75px;
+  position: relative;
 }
 
 .footer__contacts-block {
@@ -53,14 +57,12 @@ footer {
 
 .footer__link-phone {
   margin: 0;
-  margin-left: 30px;
   color: white;
   text-decoration: none;
 }
 
 .footer__link-mail {
   margin: 0;
-  margin-left: 28px;
   color: white;
   text-decoration: none;
 }
@@ -72,8 +74,8 @@ footer {
   height: 32px;
   background-image: url('/img/img/phone-icon.svg');
   background-size: cover;
-  position: absolute;
-  left: 0;
+  position: absolute; /* Позиционирование относительно ссылок */
+  left: 0; 
   top: 50%;
   transform: translateY(-50%);
 }
