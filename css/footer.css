@@ -20,7 +20,7 @@ footer {
   line-height: 28px;
   position: relative;
   max-width: 340px;
-  padding-left: 75px; /* Отступ для параграфа */
+  padding-left: 75px;
 }
 
 .footer__location-text::before {
@@ -32,7 +32,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  left: 0; /* Позиционирование относительно параграфа */
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -74,7 +74,7 @@ footer {
   height: 32px;
   background-image: url('/img/img/phone-icon.svg');
   background-size: cover;
-  position: absolute; /* Позиционирование относительно ссылок */
+  position: absolute;
   left: 0; 
   top: 50%;
   transform: translateY(-50%);
