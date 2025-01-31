@@ -1,0 +1,43 @@
+.header {
+  padding-top: 38px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__navigation-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header__navigation-link {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.header__button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  background-color: #1b1a1b;
+  height: 55px;
+  color: #FFFFFF;
+}
+
+.header__btn-border {
+  border: solid 3px #CD06FF;
+  border-radius: 10px;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

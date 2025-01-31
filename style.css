@@ -7,6 +7,7 @@
 @import "./css/footer.css";
 @import "./css/quote.css";
 @import "./css/review.css";
+@import "./css/service.css";
 
 html {
   box-sizing: border-box;
@@ -53,6 +54,8 @@ ul {
 
 button {
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
