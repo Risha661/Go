@@ -52,6 +52,11 @@ ul {
   margin: 0;
 }
 
+li {
+  padding: 0;
+  margin: 0;
+}
+
 button {
   cursor: pointer;
   margin: 0;

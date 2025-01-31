@@ -1,0 +1,68 @@
+.service__container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.service__title {
+  margin: 0 auto;
+  max-width: 880px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.service__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  max-height: 800px;
+}
+
+.service__item-vr {
+  background-image: url("../img/vr.jpg");
+}
+
+.service__item-games {
+  background-image: url("../img/games.jpg");
+}
+
+.service__item-audio {
+  background-image: url("../img/audio.jpg");
+}
+
+.service__item-karaoke {
+  background-image: url("../img/micro.jpg");
+}
+
+.service__item-films {
+  background-image: url("../img/netflix.jpg");
+}
+
+.service__item-playstation {
+  background-image: url("../img/sony.jpg");
+}
+
+.service__item-vr,
+.service__item-games,
+.service__item-audio,
+.service__item-karaoke,
+.service__item-films,
+.service__item-playstation {
+  width: 380px;
+  height: 228px;
+
+}
+
+.service__item-text {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
+  padding: 166px 40px 20px 40px;
+}

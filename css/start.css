@@ -29,6 +29,18 @@
   filter: drop-shadow(0 -4px 15px rgba(0, 0, 0, 0.5));
 }
 
+.start__container::before {
+  content: "";
+  background-image: url("../img/img/down-icon.svg");
+  background-size: cover;
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  right: 574px;
+  bottom: 90px;
+  z-index: 2;
+}
+
 .start__span-container {
   display: flex;
   flex-direction: row;
