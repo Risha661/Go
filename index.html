@@ -115,23 +115,25 @@
       </div>
       </section>
       <section class="booking">
-        <div class="container">
+        <div class="booking__container">
         <h2 class="booking__title" id="check">Забронировать</h2>
           <form class="booking__form" method="POST" action="https://jsonplaceholder.typicode.com/posts">
             <fieldset class="booking__fieldset booking__fieldset-zal">
               <legend class="booking__legend booking__legend-center">Выбери зал</legend>
-              <label class="booking__label booking__label-zal">
-                <input class="booking__input-zal" type="radio" value="80's vibes" name="cinema-hall">80's vibes             
-              </label>
-              <label class="booking__label booking__label-zal">
-                <input class="booking__input-zal" type="radio" value="Star wars" name="cinema-hall">Star wars             
-              </label>
-              <label class="booking__label booking__label-zal">
-                <input class="booking__input-zal" type="radio" value="Wild west" name="cinema-hall">Wild west             
-              </label>
-              <label class="booking__label booking__label-zal">
-                <input class="booking__input-zal" type="radio" value="Neon style" name="cinema-hall">Neon style
-              </label>
+              <div class="booking__container-zal">
+                <label class="booking__label booking__btn-zal">
+                  <input type="radio" value="80's vibes" name="cinema-hall">80's vibes     
+                </label>
+                <label class="booking__label booking__btn-zal">
+                  <input type="radio" value="Star wars" name="cinema-hall">Star wars          
+                </label>
+                <label class="booking__label booking__btn-zal">
+                  <input type="radio" value="Wild west" name="cinema-hall">Wild west           
+                </label>
+                <label class="booking__label booking__btn-zal">
+                  <input type="radio" value="Neon style" name="cinema-hall">Neon style
+                </label>
+              </div>
             </fieldset>
             <fieldset class="booking__fieldset booking__fieldset-box">
               <legend class="booking__legend booking__legend-center">Собери набор развлечений</legend>
