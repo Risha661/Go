@@ -189,37 +189,43 @@
                 </fieldset> 
               </div>
             </fieldset>
-            <fieldset class="booking__fieldset booking__fieldset-info">
-              <legend class="booking__legend booking__legend-center">Выбери дату и время</legend>
-              <div class="booking__date-block">
-                <label class="booking__label-date">Дата*
-                  <input class="booking__input-date" type="date" name="date" required>
-                </label>
-                <label class="booking__label-time">Время*
-                  <input class="booking__input-time" type="time" name="time" required>
-                </label>
-                <label class="booking__label-counts-people">Количество человек*
-                  <input class="booking__input-counts-people" type="number" name="sum-people" placeholder="Сколько человек">
-                </label>
-              </div>
-              <div class="booking__name-block">
-                <label class="booking__label-text">Имя*
-                  <input class="booking__input-name" type="text" name="name" placeholder="Введите имя" required>
-                </label>
-                <label class="booking__label-text">Фамилия*
-                  <input class="booking__input-surname" type="text" name="surname" placeholder="Введите фамилию" required>
-                </label>
-              </div>
-              <div class="booking__contacts-block">
-                <label class="booking__label-text">Телефон
-                  <input  class="booking__input-tel" type="tel" name="tel" placeholder="Введите номер телефона" required>
-                </label>
-                <label class="booking__label-text">E-mail
-                  <input class="booking__input-email" type="email" name="email" placeholder="Введите номер телефона" required>
-                </label>
+            <fieldset class="booking__flex-column-block">
+              <fieldset class="booking__fieldset booking__fieldset-info">
+                <legend class="booking__legend booking__legend-center">Выбери дату и время</legend>
+                <div class="booking__wrapper booking__wrapper-column">
+                  <div class="booking__date-block">
+                    <input class="booking__input-date" type="text" id="booking_date" name="date" placeholder="Дата" required>
+                    <input class="booking__input-time" type="text" id="booking_time" name="time" placeholder="Время" required>
+                  </div>
+                  <div class="booking__wrapper">
+                    <input class="booking__input-counts-people" type="number" name="sum-people" placeholder="Сколько человек" required>
+                  </div>
+                </div>
+                <div class="booking__wrapper booking__name-block">
+                  <div class="booking__name">
+                    <label class="booking__label-text" for="name">Имя</label>
+                    <input id="name" class="booking__input-name" type="text" name="name" placeholder="Введите имя" required>
+                  </div>
+                  <div class="booking__surname">
+                    <label class="booking__label-text" for="surname">Фамилия</label>
+                    <input id="surname" class="booking__input-surname" type="text" name="surname" placeholder="Введите фамилию" required>
+                  </div>
+                </div>
+                <div class="booking__wrapper booking__contacts-block">
+                  <div class="booking__tel">
+                    <label class="booking__label-text" for="tel">Телефон</label>
+                    <input  class="booking__input-tel" id="tel" type="tel" name="tel" placeholder="Введите номер телефона" required>
+                  </div>
+                  <div class="booking__email">
+                    <label class="booking__label-text" for="email">E-mail</label>
+                    <input class="booking__input-email" id="email" type="email" name="email" placeholder="Введите номер телефона" required>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="booking__button-container">
+                <button class="booking__btn booking__btn-submit" type="submit">Забронировать</button>
               </div>
             </fieldset>
-            <button class="booking__btn booking__btn-submit" type="submit">Забронировать</button>
           </form>
         </div>
       </section>

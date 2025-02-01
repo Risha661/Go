@@ -118,4 +118,132 @@
   display: none;
 }
 
+.booking__fieldset-info {
+  max-width: 980px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.booking__date-block {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.booking__wrapper-column {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.booking__input-date,
+.booking__input-time {
+  border: none;
+  display: inline-block;
+  max-width: 134px;
+  padding: 12px 20px;
+}
+
+.booking__input-counts-people {
+  display: inline-block;
+  border: none;
+  max-width: 300px;
+  padding: 12px 134px 12px 20px;
+}
+
+.booking__input-date,
+.booking__input-time,
+.booking__input-counts-people {
+  max-height: 52px;
+  color: #211E1E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.booking__contacts-block {
+  width: 300px;
+}
+
+.booking__name-block,
+.booking__contacts-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: -23px;
+}
+
+.booking__input-tel,
+.booking__input-email {
+  display: inline-block;
+  border: none;
+  max-width: 300px;
+  height: 52px;
+  padding: 12px 20px;
+}
+
+.booking__label-text {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.booking__tel,
+.booking__email,
+.booking__name,
+.booking__surname {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.booking__input-name,
+.booking__input-surname {
+  display: inline-block;
+  border: none;
+  max-width: 280px;
+  height: 52px;
+  padding: 12px 20px;
+}
+
+.booking__flex-column-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.booking__btn-submit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  display: inline-block;
+  justify-content: end;
+  width: 300px;
+  max-height: 60px;
+  border-radius: 10px;
+  background-color: #FFF;
+  color: #6C0287;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  cursor: pointer;
+  padding: 16px 50px;
+  text-align: center;
+}
+
+.booking__button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
