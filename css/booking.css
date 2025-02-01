@@ -1,3 +1,84 @@
-.booking__title {
-  margin-bottom: 50px;
+.booking {
+  background-color: #440F51;
 }
+
+.booking__title {
+  margin-bottom: 40px;
+}
+
+.booking__fieldset-container {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 230px;
+  padding-left: 130px;
+}
+
+.booking__legend {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.booking__legend-center {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.booking__legend-center:last-child {
+  margin-bottom: 40px;
+}
+
+.booking__fieldset-zal,
+.booking__fieldset-box {
+  margin-bottom: 60px;
+}
+
+.booking__fieldset-info {
+  margin-bottom: 40px;
+}
+
+.booking__fieldset-console {
+  min-width: 280px;
+}
+
+.booking__fieldset-additionally,
+.booking__fieldset-games {
+  min-width: 300px;
+}
+
+.booking__fieldset-console,
+.booking__fieldset-additionally,
+.booking__fieldset-games {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking__legend-margin {
+  margin-bottom: 23px;
+}
+
+.booking__fieldset-box {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.booking__label-text-block {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+
+.booking__input-radio,
+.booking__input-checkbox {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+  cursor: pointer; 
+}
+

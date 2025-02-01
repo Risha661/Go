@@ -89,3 +89,14 @@ section {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+legend, label, input {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border:0 none;
+}
