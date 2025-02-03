@@ -105,3 +105,37 @@ footer {
 .footer__text-contacts {
   margin-bottom: 54px;
 }
+
+.footer__flex-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 156px;
+}
+
+.footer__author-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__author-copyrite,
+.footer__author-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__author-copyrite {
+  text-align: left;
+}
+
+.footer__author-text {
+  text-align: right;
+}
+
+.footer__author {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
