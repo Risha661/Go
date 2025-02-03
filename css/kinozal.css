@@ -2,22 +2,29 @@
   padding-bottom: 100px;
 }
 
+.kinozal__container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .kinozal__list {
+
   margin: 0;
   padding: 0;
-  width: 1180px;
+  font-size: 0;
+
 }
 
 .kinozal__title {
-  width: 1180px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .kinozal__item {
-  float: left;
-  width: 580px;
+  display: inline-block;
   height: 349px;
   margin-bottom: 20px;
+  width: calc(50% - 10px);
 }
 
 .kinozal__item:not(:nth-child(2n)) {

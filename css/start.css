@@ -29,30 +29,28 @@
   filter: drop-shadow(0 -4px 15px rgba(0, 0, 0, 0.5));
 }
 
-.start__container::before {
+.start__link-path {
   content: "";
   background-image: url("../img/img/down-icon.svg");
   background-size: cover;
   width: 97px;
   height: 97px;
   position: absolute;
-  right: 574px;
-  bottom: 90px;
+  left: 50%; 
+  transform: translateX(-50%);
   z-index: 2;
   transition: background-image 0.3s;
 }
 
-.start__container:hover::before {
-  content: "";
+.start__link-path:hover {
   background-image: url("../img/img/down-hover.svg");
 }
 
-.start__container:focus::before {
+.start__link-path:focus {
   border: 1px solid #CD06FF;
 }
 
-.start__container:active::before {
-  content: "";
+.start__link-path:active {
   background-image: url("../img/img/down-active.svg");
 }
 
