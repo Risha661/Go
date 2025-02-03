@@ -40,4 +40,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+}
+
+.header__btn-border:hover {
+  border: none;
+  background-color: #6C0287;
+}
+
+.header__btn-border:focus {
+  border: 1px solid #000;
+  background-color: #640AA3;
+}
+
+.header__btn-border:active {
+  border: none;
+  background-color: #6C0287;
 }

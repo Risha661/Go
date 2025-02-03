@@ -39,6 +39,21 @@
   right: 574px;
   bottom: 90px;
   z-index: 2;
+  transition: background-image 0.3s;
+}
+
+.start__container:hover::before {
+  content: "";
+  background-image: url("../img/img/down-hover.svg");
+}
+
+.start__container:focus::before {
+  border: 1px solid #CD06FF;
+}
+
+.start__container:active::before {
+  content: "";
+  background-image: url("../img/img/down-active.svg");
 }
 
 .start__span-container {
@@ -94,6 +109,22 @@
   line-height: 30px;
   text-transform: uppercase;
   padding: 25px 69px;
+  transition: 0.5s;
+}
+
+.start__btn:hover {
+  background-color: #840AA3;
+  transition: 0.5s;
+}
+
+.start__btn:focus {
+  background-color: #840AA3;
+  transition: 0.5s;
+}
+
+.start__btn:active {
+  background-color: #640AA3;
+  transition: 0.5s;
 }
 
 .start__btn-violet {

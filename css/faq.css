@@ -40,8 +40,25 @@
   background-repeat: no-repeat;
   top: calc(50% - 23px);
   right: 70px;
+  transition: 0.5s;
+}
+
+.faq__item:hover::after {
+  background-image: url("../img/img/open-hover-violet.svg");
+}
+
+.faq__item:active::after {
+  background-image: url("../img/img/minus-active-violet.svg");
 }
 
 .faq__item:nth-child(2n)::after {
   background-image: url("../img/img/plus-white-icon.svg");
+}
+
+.faq__item:hover:nth-child(2n)::after {
+    background-image: url("../img/img/open-hover-white.svg");
+}
+
+.faq__item:active:nth-child(2n)::after {
+  background-image: url("../img/img/minus-active-white.svg");
 }
