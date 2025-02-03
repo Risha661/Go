@@ -93,6 +93,19 @@ footer {
   display: inline-block;
 }
 
+.footer__item-img:hover {
+  color: #EADEED;
+}
+
+.footer__item-img:focus {
+  color: #EADEED;
+  border: 1px solid #CD06FF;
+}
+
+.footer__item-img:active {
+  color: #CD06FF;
+}
+
 .footer__item:not(:last-child) {
   margin-right: 26px;
 }
