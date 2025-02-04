@@ -61,6 +61,18 @@
   padding: 135px 0; 
 }
 
+.kinozal__link:hover {
+  color: #840AA3;
+}
+
+.kinozal__link:active {
+  color: #840AA3;
+}
+
+.kinozal__link:visited {
+  color: #840AA3;
+}
+
 .kinozal__link-text {
   display: inline-block;
   font-family: Arial;

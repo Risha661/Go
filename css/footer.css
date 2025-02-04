@@ -67,6 +67,21 @@ footer {
   text-decoration: none;
 }
 
+.footer__link-phone:hover,
+.footer__link-mail:hover {
+  color: #840AA3;
+}
+
+.footer__link-phone:active,
+.footer__link-mail:active {
+  color: #CD06FF;
+}
+
+.footer__link-phone:visited,
+.footer__link-mail:visited {
+  color: #840AA3;
+}
+
 .footer__contacts-block::before {
   content: '';
   display: inline-block;
