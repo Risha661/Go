@@ -70,16 +70,19 @@ footer {
 .footer__link-phone:hover,
 .footer__link-mail:hover {
   color: #840AA3;
+  transition: 0.5s;
 }
 
 .footer__link-phone:active,
 .footer__link-mail:active {
   color: #CD06FF;
+  transition: 0.5s;
 }
 
 .footer__link-phone:visited,
 .footer__link-mail:visited {
   color: #840AA3;
+  transition: 0.5s;
 }
 
 .footer__contacts-block::before {
@@ -109,6 +112,7 @@ footer {
 }
 
 .footer__link-cite {
+  display: inline-block
   color: #FFF;
   z-index: 1;
 }
@@ -119,15 +123,18 @@ footer {
 
 .footer__link-cite:hover {
   color: #EADEED;
+  transition: 0.5s;
 }
 
 .footer__link-cite:focus {
   color: #EADEED;
   border: 1px solid #CD06FF;
+  transition: 0.5s;
 }
 
 .footer__link-cite:active {
   color: #CD06FF;
+  transition: 0.5s;
 }
 
 .footer__item:not(:last-child) {

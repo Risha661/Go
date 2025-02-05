@@ -63,14 +63,17 @@
 
 .kinozal__link:hover {
   color: #840AA3;
+  transition: 0.5s;
 }
 
 .kinozal__link:active {
   color: #840AA3;
+  transition: 0.5s;
 }
 
 .kinozal__link:visited {
   color: #840AA3;
+  transition: 0.5s;
 }
 
 .kinozal__link-text {

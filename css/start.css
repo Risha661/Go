@@ -44,14 +44,17 @@
 
 .start__link-path:hover {
   background-image: url("../img/img/down-hover.svg");
+  transition: 0.5s;
 }
 
 .start__link-path:focus {
   border: 1px solid #CD06FF;
+  transition: 0.5s;
 }
 
 .start__link-path:active {
   background-image: url("../img/img/down-active.svg");
+  transition: 0.5s;
 }
 
 .start__span-container {
@@ -141,4 +144,5 @@
 
 .start__btn-violet:hover {
   box-shadow: 0 0 20px rgba(108, 2, 135, 0.8), 0 0 40px rgba(108, 2, 135, 0.6);
+  transition: 0.5s;
 }

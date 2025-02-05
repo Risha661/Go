@@ -260,42 +260,51 @@
 
 .booking__input:focus {
   outline: 2px solid #CD06FF;
+  transition: 0.5s;
 }
 
 .booking__input-checkbox:focus {
   outline: 1px solid #CD06FF;
+  transition: 0.5s;
 }
 
 .booking__input-radio:focus {
   outline: 1px solid #CD06FF;
+  transition: 0.5s;
 }
 
 .booking__btn-submit:hover {
   border: none;
   background-color: #EADEED;
+  transition: 0.5s;
 }
 
 .booking__btn-submit:focus {
   border: 3px solid #6C0287;
+  transition: 0.5s;
 }
 
 .booking__btn-submit:active {
   border: 3px solid #6C0287;
   background-color: #EADEED;
+  transition: 0.5s;
 }
 
 .booking__btn-zal:hover {
   background-color: #EADEED;
   border: 3px solid #640AA3;
+  transition: 0.5s;
 }
 
 .booking__btn-zal:focus {
   background-color: #EADEED;
   border: 3px solid #FFF;
+  transition: 0.5s;
 }
 
 .booking__btn-zal:active {
   background-color: #6C0287;
   border: 3px solid #FFF;
   color: #FFF;
+  transition: 0.5s;
 }
