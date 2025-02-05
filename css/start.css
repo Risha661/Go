@@ -48,7 +48,7 @@
 }
 
 .start__link-path:focus {
-  border: 1px solid #CD06FF;
+  border: 1px solid var(--light-purple);
   transition: 0.5s;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .start__span-violet {
-  color: #CD06FF;
+  color: var(--light-purple);
 }
 
 .start__span-middle {
@@ -106,7 +106,7 @@
 .start__btn {
   font-size: 26px;
   font-weight: 700;
-  color: #FFF;
+  color: var(--white);
   line-height: 30px;
   text-transform: uppercase;
   padding: 25px 69px;
@@ -114,25 +114,25 @@
 }
 
 .start__btn:hover {
-  background-color: #840AA3;
+  background-color: var(--purple);
   transition: 0.5s;
 }
 
 .start__btn:focus {
-  background-color: #840AA3;
+  background-color: var(--purple);
   transition: 0.5s;
 }
 
 .start__btn:active {
-  background-color: #640AA3;
+  background-color: var(--violet);
   transition: 0.5s;
 }
 
 .start__btn-violet {
-  background-color: #6C0287;
+  background-color: var(--dark-purple);
   border-radius: 10px;
   border: none;
-  background-color: #6C0287;
+  background-color: var(--dark-purple);
   text-align: center;
   text-decoration: none;
   display: inline-block;

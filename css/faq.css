@@ -12,7 +12,7 @@
 .faq__item {
   position: relative;
   margin: 0;
-  background-color: #fff;
+  background-color: var(--white);
   color: #1C1A1A;
   font-weight: 700;
   font-size: 24px;
@@ -26,8 +26,8 @@
 }
 
 .faq__item:nth-child(2n) {
-  background-color: #440F51;
-  color: #fff;
+  background-color: var(--bold-purple);
+  color: var(--white);
 }
 
 .faq__item::after {

@@ -56,14 +56,14 @@
 
 .quote__quote::before {
   content: "“ ";
-  color: #6C0287;
+  color: var(--dark-purple);
   font-weight: 900;
   margin-left: -31px;
 }
 
 .quote__quote::after {
   content: " ”";
-  color: #6C0287;
+  color: var(--dark-purple);
   font-weight: 900;
 }
 

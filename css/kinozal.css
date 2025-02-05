@@ -56,23 +56,23 @@
   display: block;
   height: 100%;
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   padding: 135px 0; 
 }
 
 .kinozal__link:hover {
-  color: #840AA3;
+  color: var(--purple);
   transition: 0.5s;
 }
 
 .kinozal__link:active {
-  color: #840AA3;
+  color: var(--purple);
   transition: 0.5s;
 }
 
 .kinozal__link:visited {
-  color: #840AA3;
+  color: var(--purple);
   transition: 0.5s;
 }
 

@@ -1,3 +1,4 @@
+@import "./css/var.css";
 @import "./style.css";
 @import "./css/faq.css";
 @import "./css/header.css";
@@ -8,6 +9,7 @@
 @import "./css/quote.css";
 @import "./css/review.css";
 @import "./css/service.css";
+
 
 html {
   box-sizing: border-box;
@@ -21,7 +23,7 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-  background-color: #1b1a1b;
+  background-color: var(--dark-grey);
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-style: normal;

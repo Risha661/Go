@@ -69,19 +69,19 @@ footer {
 
 .footer__link-phone:hover,
 .footer__link-mail:hover {
-  color: #840AA3;
+  color: var(--purple);
   transition: 0.5s;
 }
 
 .footer__link-phone:active,
 .footer__link-mail:active {
-  color: #CD06FF;
+  color: var(--light-purple);
   transition: 0.5s;
 }
 
 .footer__link-phone:visited,
 .footer__link-mail:visited {
-  color: #840AA3;
+  color: var(--purple);
   transition: 0.5s;
 }
 
@@ -112,28 +112,28 @@ footer {
 }
 
 .footer__link-cite {
-  display: inline-block
-  color: #FFF;
+  display: inline-block;
+  color: var(--white);
   z-index: 1;
 }
 
 .footer__link-cite:visited {
-  color: #CD06FF;
+  color: var(--light-purple);
 }
 
 .footer__link-cite:hover {
-  color: #EADEED;
+  color: var(--white-darkened);
   transition: 0.5s;
 }
 
 .footer__link-cite:focus {
-  color: #EADEED;
-  border: 1px solid #CD06FF;
+  color: var(--white-darkened);
+  border: 1px solid var(--light-purple);
   transition: 0.5s;
 }
 
 .footer__link-cite:active {
-  color: #CD06FF;
+  color: var(--light-purple);
   transition: 0.5s;
 }
 

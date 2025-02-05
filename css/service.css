@@ -64,7 +64,7 @@
 
 .service__item-text {
   position: absolute;
-  color: #FFF;
+  color: var(--white);
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
