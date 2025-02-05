@@ -53,11 +53,13 @@
 .service__item-karaoke,
 .service__item-films,
 .service__item-playstation {
+  display: inline-block;
   width: 380px;
   height: 228px;
   position: relative;
   background-size: cover;
   background-position: center;
+  transition: 0.5s
 }
 
 .service__item-text {
@@ -68,7 +70,26 @@
   line-height: 26px;
   text-align: left;
   padding: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 166px;
+  left: 44px;
+}
+
+.service__item-vr:hover,
+.service__item-games:hover,
+.service__item-audio:hover,
+.service__item-karaoke:hover,
+.service__item-films:hover,
+.service__item-playstation:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.service__item-vr:hover .service__item-text,
+.service__item-games:hover .service__item-text,
+.service__item-audio:hover .service__item-text,
+.service__item-karaoke:hover .service__item-text,
+.service__item-films:hover .service__item-text,
+.service__item-playstation:hover .service__item-text {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
