@@ -32,7 +32,8 @@
 .start__link-path {
   content: "";
   background-image: url("../img/img/down-icon.svg");
-  background-size: cover;
+  background-size: contain; 
+  background-repeat: no-repeat;
   width: 97px;
   height: 97px;
   position: absolute;

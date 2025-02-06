@@ -50,7 +50,7 @@
 }
 
 .header__btn-border {
-  border: solid 3px var(--span-color);
+  border: solid 3px var(--light-purple);
   border-radius: 10px;
   padding: 12px 32px;
   display: flex;

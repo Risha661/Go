@@ -1,5 +1,6 @@
-footer {
+.footer {
   padding: 50px 0 51px 0;
+  background: var(--footer-gradient);
 }
 
 .footer__address {
@@ -115,10 +116,12 @@ footer {
   display: inline-block;
   color: var(--white);
   z-index: 1;
+  transition: 0.5s;
 }
 
 .footer__link-cite:visited {
   color: var(--light-purple);
+  transition: 0.5s;
 }
 
 .footer__link-cite:hover {
