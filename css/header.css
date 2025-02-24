@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.header__logo {
+  margin-top: -8px;
+}
+
 .header__navigation-list {
   display: flex;
   flex-direction: row;
@@ -52,7 +56,7 @@
 .header__btn-border {
   border: solid 3px var(--light-purple);
   border-radius: 10px;
-  padding: 12px 32px;
+  padding: 12px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
