@@ -80,3 +80,21 @@
   top: 291px;
   width: 280px;
 }
+
+@media (max-width: 1024px) {
+  .review {
+    padding: 35px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .review {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .review {
+    padding: 15px 0;
+  }
+}

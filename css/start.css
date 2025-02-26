@@ -4,7 +4,7 @@
 
 .start__container {
   position: relative;
-  max-height: 823px;
+  min-height: 823px;
 }
 
 .start__title{
@@ -30,7 +30,7 @@
   height: 762px;
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 61px;
   z-index: 1;
   filter: drop-shadow(0 -4px 15px rgba(0, 0, 0, 0.5));
 }
@@ -163,7 +163,7 @@
   }
 
   .start__container {
-    max-height: 584px;
+    min-height: 584px;
   }
 
   .start__container::after {

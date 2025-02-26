@@ -92,3 +92,21 @@
   display: table;
   clear: both;
 }
+
+@media (max-width: 1024px) {
+  .kinozal {
+    padding: 35px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .kinozal {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .kinozal {
+    padding: 15px 0;
+  }
+}

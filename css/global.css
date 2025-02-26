@@ -70,10 +70,6 @@ h2 {
   text-align: center;
 }
 
-section:not(:first-child) {
-  padding: 50px 0;
-}
-
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -91,10 +87,6 @@ fieldset {
 }
 
 @media (max-width: 1024px) {
-  section {
-    padding: 50px 0;
-  }
-  
   .container {
     max-width: 904px;
     margin: 0 auto;
@@ -102,10 +94,6 @@ fieldset {
 }
 
 @media (max-width: 768px) {
-  section {
-    padding: 50px 0;
-  }
-  
   .container {
     max-width: 688px;
     margin: 0 auto;
@@ -113,11 +101,7 @@ fieldset {
 }
 
 @media (max-width: 320px) {
-  section {
-    padding: 50px 0;
-  }
-  
-  .container {
+.container {
     max-width: 280px;
     margin: 0 auto;
   }
