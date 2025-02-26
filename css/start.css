@@ -1,6 +1,10 @@
+.start {
+  padding: 50px 0;
+}
+
 .start__container {
   position: relative;
-  min-height: 823px;
+  max-height: 823px;
 }
 
 .start__title{
@@ -151,4 +155,152 @@
 .start__btn-violet:hover {
   box-shadow: 0 0 20px rgba(108, 2, 135, 0.8), 0 0 40px rgba(108, 2, 135, 0.6);
   transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .start {
+    padding: 30px 0 48px;
+  }
+
+  .start__container {
+    max-height: 584px;
+  }
+
+  .start__container::after {
+    max-width: 452px;
+    max-height: 520px;
+    right: 5px;
+    top: 64px;
+  }
+  
+  .start__title {
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -12px;
+    margin-bottom: 20px;
+  }
+
+  .start__text {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .start__span-big {
+    font-size: 80px;
+    line-height: 114.81px;
+  }
+
+  .start__span-white {
+    font-size: 26px;
+    line-height: 29.9px;
+    width: 168px;
+    text-align: center;
+  }
+
+  .start__span-middle {
+    font-size: 47px;
+    line-height: 76.61px;
+    padding-top: 0;
+    letter-spacing: 3px;
+    margin-left: 2px;
+  }
+
+  .start__span-container {
+    gap: 26px;
+  }
+
+  .start__span-container {
+    margin-bottom: 75px;
+  }
+
+  .start__btn {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 17px 48px;
+    margin-left: 39px;
+  }
+
+  .start__link-path {
+    width: 67px;
+    height: 67px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .start {
+    padding: 30px 0 50px;
+  }
+
+  .start__title {
+    font-size: 86px;
+    line-height: 86px;
+    letter-spacing: -10px;
+    margin-bottom: 21px;
+  }
+
+  .start__text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    padding-left: 67px;
+  }
+
+  .start__span-big {
+    font-size: 50px;
+    line-height: 70.51px;
+  }
+
+  .start__span-container {
+    margin-bottom: 100px;
+  }
+
+  .start__btn {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 11px 35px 11px 34px;
+    margin-left: 0;
+  }
+
+  .start__link-path  {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .start {
+    padding: 20px 0 31px;
+  }
+
+  .start__title {
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -9px;
+    margin-bottom: 6px;
+  }
+
+  .start__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    padding-left: 19px;
+  }
+
+  .start__span-big {
+    font-size: 26px;
+    line-height: 36.66px;
+  }
+
+  .start__span-container {
+    margin-bottom: 30px;
+  }
+
+  .start__btn {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 8px 13px 7px 13px;
+  }
 }
