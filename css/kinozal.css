@@ -44,7 +44,6 @@
   padding-left: 11px;
 }
 
-
 .kinozal__item-vibes {
   background-image: url("../img/img/80svibes.jpg");
 }
@@ -97,16 +96,98 @@
   .kinozal {
     padding: 35px 0;
   }
+
+  .kinozal__container {
+    max-width: 904px;
+    margin: 0 auto;
+  }
+
+  .kinozal__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+  }
+
+  .kinozal__list {
+    max-width: 904px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .kinozal__item {
+    min-height: 267px;
+  }
+
+  .kinozal__link-text {
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 252px;
+  }
+
+  .kinozal__item-starwars .kinozal__link {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .kinozal {
     padding: 30px 0;
   }
+
+  .kinozal__container {
+    max-width: 688px;
+    margin: 0 auto;
+  }
+
+  .kinozal__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 35px;
+  }
+
+
+  .kinozal__item {
+    min-height: 200px;
+  }
+
+
+  .kinozal__link-text {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 129px;
+  }
+
+  .kinozal__item-starwars .kinozal__link {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 320px) {
   .kinozal {
     padding: 15px 0;
+  }
+
+  .kinozal__container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .kinozal__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .kinozal__item {
+    min-height: 168px;
+  }
+
+  .kinozal__link-text {
+    font-size: 26px;
+    line-height: 34px;
+    max-width: 84px;
   }
 }
