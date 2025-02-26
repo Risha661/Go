@@ -236,12 +236,17 @@
     margin-bottom: 15px;
   }
 
-  .service__item-text {
-    top: 30px;
-    left: 10px;
-    max-width: 115px;
-    font-size: 10px;
-    line-height: 14px;
+  .service__list {
+    max-width: 688px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 135px);
+    grid-template-rows: repeat(3, 75px);
+    gap: 20px;
+  }
+  
+  .service__list {
+    gap: 10px;
   }
 
   .service__item {
@@ -251,9 +256,15 @@
     padding-top: 10px;
   }
 
-  .service__name {
-    min-height: 20px;
-    padding: 0 10px;
-    max-width: 130px;
+  .service__item-text {
+    top: 30px;
+    left: 10px;
+    max-width: 111px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .service__item:nth-child(5) .service__item-text {
+    top: 31px;
   }
 }

@@ -235,6 +235,10 @@
     padding: 30px 0 5px;
   }
 
+  .start__container {
+    min-height: 537px;
+  }
+
   .start__title {
     font-size: 86px;
     line-height: 87px;
@@ -301,6 +305,10 @@
 @media (max-width: 320px) {
   .start {
     padding: 62px 0 31px;
+  }
+
+  .start__container {
+    min-height: 204px;
   }
 
   .start__title {
