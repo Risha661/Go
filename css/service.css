@@ -1,3 +1,7 @@
+.service {
+  padding: 50px 0;
+}
+
 .service__container {
   margin: 0 auto;
   max-width: 1180px;
@@ -18,8 +22,10 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, minmax(150px, 380px));
-  gap: 40px 20px;
+  row-gap: 40px;
+  column-gap: 20px;
   padding-bottom: 70px;
+  max-width: 1180px;
 }
 
 .service__item {
@@ -43,10 +49,6 @@
 
 .service__item:nth-child(3n + 2):hover {
   transform: scale(1.1) translate(0, 70px);
-}
-
-.service__item-bottom {
-  margin-bottom: 20px;
 }
 
 .service__item-vr {
