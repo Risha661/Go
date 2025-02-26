@@ -300,13 +300,13 @@
 
 @media (max-width: 320px) {
   .start {
-    padding: 20px 0 31px;
+    padding: 62px 0 31px;
   }
 
   .start__title {
     font-size: 35px;
     line-height: 35px;
-    letter-spacing: -9px;
+    letter-spacing: -2.7px;
     margin-bottom: 6px;
   }
 
@@ -323,8 +323,13 @@
   }
 
   .start__span-container {
-    margin-bottom: 30px;
+    margin-bottom: 26px;
+    gap: 14px;
   }
+
+  .start__two-span-block {
+    padding-top: 10px;
+}
 
   .start__span-white {
     font-size: 10px;
@@ -336,5 +341,20 @@
     font-size: 10px;
     line-height: 12px;
     padding: 8px 13px 7px 13px;
+  }
+
+  .start__container::after {
+    max-width: 161px;
+    max-height: 179px;
+    right: 0px;
+    top: 24px;
+  }
+
+  .start__span-middle {
+    font-size: 17px;
+    line-height: 27.02px;
+    padding-top: 0;
+    letter-spacing: 0px;
+    margin-left: 0;
   }
 }
