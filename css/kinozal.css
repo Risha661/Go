@@ -183,8 +183,20 @@
     margin-bottom: 15px;
   }
 
+  .kinozal__list {
+    max-width: 280px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 168px);
+    row-gap: 10px;
+  }
+
   .kinozal__item {
     min-height: 168px;
+  }
+
+  .kinozal__link {
+    padding-top: 2px;
   }
 
   .kinozal__link-text {
