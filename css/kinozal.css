@@ -86,15 +86,9 @@
   text-transform: uppercase;
 }
 
-.kinozal__list::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media (max-width: 1024px) {
   .kinozal {
-    padding: 35px 0;
+    padding: 35px 0 70px 0;
   }
 
   .kinozal__container {
@@ -134,7 +128,7 @@
 
 @media (max-width: 768px) {
   .kinozal {
-    padding: 30px 0;
+    padding: 30px 0 62px 0;
   }
 
   .kinozal__container {
@@ -148,16 +142,24 @@
     margin-bottom: 35px;
   }
 
+  .kinozal__list {
+    max-width: 688px;
+    display: grid;
+    row-gap: 18px;
+  }
 
   .kinozal__item {
     min-height: 200px;
   }
 
-
   .kinozal__link-text {
     font-size: 40px;
     line-height: 50px;
     max-width: 129px;
+  }
+
+  .kinozal__link {
+    padding-top: 25px;
   }
 
   .kinozal__item-starwars .kinozal__link {
@@ -167,7 +169,7 @@
 
 @media (max-width: 320px) {
   .kinozal {
-    padding: 15px 0;
+    padding: 15px 0 30px 0;
   }
 
   .kinozal__container {
