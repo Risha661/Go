@@ -237,8 +237,8 @@
 
   .start__title {
     font-size: 86px;
-    line-height: 86px;
-    letter-spacing: -10px;
+    line-height: 87px;
+    letter-spacing: -8px;
     margin-bottom: 21px;
   }
 
@@ -246,16 +246,32 @@
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 50px;
-    padding-left: 67px;
+    padding-left: 70px;
+  }
+
+  .start__span-white {
+    font-size: 16px;
+    line-height: 18.4px;
+    max-width: 103px;
+    margin-left: 0px;
   }
 
   .start__span-big {
     font-size: 50px;
-    line-height: 70.51px;
+    line-height: 71.51px;
+  }
+
+  .start__span-middle {
+    font-size: 32px;
+    line-height: 50.41px;
+    padding-top: 0;
+    letter-spacing: 2px;
+    margin-left: -4px;
   }
 
   .start__span-container {
-    margin-bottom: 100px;
+    margin-bottom: 96px;
+    gap: 24px;
   }
 
   .start__btn {
@@ -263,10 +279,22 @@
     line-height: 24px;
     padding: 11px 35px 11px 34px;
     margin-left: 0;
+    border-radius: 5px;
+  }
+
+  .start__two-span-block {
+    padding-top: 21px;
   }
 
   .start__link-path  {
     display: none;
+  }
+
+  .start__container::after {
+    max-width: 409px;
+    max-height: 479px;
+    right: 8px;
+    top: 60px;
   }
 }
 
@@ -296,6 +324,12 @@
 
   .start__span-container {
     margin-bottom: 30px;
+  }
+
+  .start__span-white {
+    font-size: 10px;
+    line-height: 11.5px;
+    max-width: 65px;
   }
 
   .start__btn {
