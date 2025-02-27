@@ -9,12 +9,11 @@
 }
 
 .booking__title {
-
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .booking__fieldset-container {
-  max-width: 1080px;
+  max-width: 1180px;
   display: flex;
   justify-content: space-between;
   padding-left: 230px;
@@ -29,7 +28,12 @@
 
 .booking__legend-center {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+.booking__legend-bottom {
+  text-align: center;
+  margin-bottom: 63px;
 }
 
 .booking__legend-center:last-child {
@@ -38,15 +42,21 @@
 
 .booking__fieldset-zal,
 .booking__fieldset-box {
-  margin-bottom: 60px;
+  margin-bottom: 58px;
 }
 
 .booking__fieldset-info {
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 
 .booking__fieldset-console {
   min-width: 280px;
+}
+
+.booking__fieldset-games {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .booking__fieldset-additionally,
@@ -54,9 +64,8 @@
   min-width: 300px;
 }
 
-.booking__fieldset-console,
 .booking__fieldset-additionally,
-.booking__fieldset-games {
+.booking__fieldset-console {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -66,10 +75,14 @@
   margin-bottom: 23px;
 }
 
-.booking__fieldset-box {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
+.booking__fieldset-container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 280px 300px 300px;
+  column-gap: 100px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 50px;
 }
 
 .booking__label-text-block {
@@ -94,16 +107,16 @@
 }
 
 .booking__container-zal {
-  display: flex;
-  flex-direction: row;
-  gap: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 60px;
   max-width: 1180px;
 }
 
 .booking__btn-zal {
-  padding: 7px 15px 8px;
+  padding: 6px 15px 8px;
   width: 100%;
-  height: 55px;
+  height: 58px;
   background-color: var(--white);
   border-radius: 10px;
   color: var(--black);
@@ -251,6 +264,7 @@
   cursor: pointer;
   padding: 16px 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .booking__button-container {
@@ -313,16 +327,131 @@
   .booking {
     padding: 35px 0;
   }
+
+  .booking__container {
+    max-width: 904px;
+    margin: 0 auto;
+  }
+
+  .booking__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .booking__form {
+    max-width: 904px;
+    margin: 0 auto;
+  }
+
+  .booking__legend-center {
+    margin-bottom: 26px;
+  }
+
+  .booking__container-zal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 61px;
+    max-width: 904px;
+  }
+
+  .booking__btn-zal {
+    padding: 10px 20px;
+    height: 44px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 180px;
+    border: 3px solid var(--bold-purple);
+  }
 }
 
 @media (max-width: 768px) {
   .booking {
     padding: 30px 0;
   }
+
+  .booking__container {
+    max-width: 688px;
+    margin: 0 auto;
+  }
+
+  .booking__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+  }
+
+  .booking__form {
+    max-width: 688px;
+    margin: 0 auto;
+  }
+
+  .booking__legend-center {
+    margin-bottom: 30px;
+  }
+
+  .booking__container-zal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 29px;
+    max-width: 688px;
+  }
+
+  .booking__btn-zal {
+    padding: 9px 20px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 150px;
+    border: 2px solid var(--bold-purple);
+  }
 }
 
 @media (max-width: 320px) {
   .booking {
     padding: 15px 0;
+  }
+
+  .booking__container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .booking__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+
+  .booking__form {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .booking__legend {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .booking__legend-center {
+    margin-bottom: 15px;
+  }
+
+  .booking__container-zal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 14px;
+    max-width: 280px;
+  }
+
+  .booking__btn-zal {
+    padding: 6px 20px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 130px;
+    border: 1px solid var(--bold-purple);
   }
 }
