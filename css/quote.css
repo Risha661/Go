@@ -149,13 +149,13 @@
     font-size: 30px;
     line-height: 36px;
     padding-left: 25px;
-    margin-bottom: 13px;
+    margin-bottom: 21px;
     max-width: 419px;
     position: relative;
   }
 
   .quote__about {
-    margin-bottom: 26px;
+    margin-bottom: 38px;
     max-width: 400px;
   }
 
@@ -168,16 +168,21 @@
     padding-left: 113px;
   }
 
+  .quote__block-img {
+    margin-right: 40px;
+  }
+
   .quote__photo-img {
     width: 70px;
     height: 70px;
     margin-right: 35px;
+    padding-top: 5px;
   }
 
   .quote__cite-block {
-    font-size: 12px;
-    line-height: 16px;
-    max-width: 200px;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 220px;
   }
 }
 
@@ -234,7 +239,7 @@
     padding-left: 364px;
   }
 
-  .quote__photo-img {
+  .quote__block-img {
     margin-right: 25px;
   }
 }
@@ -287,10 +292,13 @@
     padding-left: 0;
   }
 
+  .quote__block-img {
+    margin-right: 11px;
+  }
+
   .quote__photo-img {
     width: 56px;
     height: 56px;
-    margin-right: 11px;
   }
 
   .quote__cite-block {
