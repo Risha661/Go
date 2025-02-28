@@ -1,7 +1,6 @@
 .quote {
+  padding: 100px 0 50px 0;
   overflow: hidden;
-  max-width: 1180px;
-  margin: 0 auto;
 }
 
 .quote__container {
@@ -19,17 +18,33 @@
   margin-right: 80px;
 }
 
+.quote__text {
+  font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.quote__about {
+  font-size: 20px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+}
+
 .quote__block-text {
   display: inline-block;
   max-width: 500px;
 }
 
 .quote__title {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .quote__text {
-  margin-bottom: 20px;
+  margin-bottom: 29px;
 }
 
 .quote__text-slogan {
@@ -39,14 +54,15 @@
   font-weight: 400;
   line-height: 50px;
   text-transform: uppercase;
-  padding-left: 31px;
-  margin-bottom: 39px;
+  padding-left: 30px;
+  margin-bottom: 32px;
   max-width: 450px;
+  position: relative;
 }
 
 .quote__about {
-  margin-bottom: 48px;
-  max-width: 350px;
+  margin-bottom: 55px;
+  max-width: 430px;
 }
 
 .quote__blockq {
@@ -56,9 +72,12 @@
 
 .quote__quote::before {
   content: "“ ";
+  position: absolute;
+  top: -8px;
+  left: 34px;
   color: var(--dark-purple);
   font-weight: 900;
-  margin-left: -31px;
+  margin-left: -35px;
 }
 
 .quote__quote::after {
@@ -88,12 +107,12 @@
 
 .quote__cite-block {
   display: inline-block;
-  max-width: 280px;
+  max-width: 266px;
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  padding-left: 10px;
+  text-transform: none;
 }
 
 .quote__collage-img {
@@ -103,18 +122,180 @@
 
 @media (max-width: 1024px) {
   .quote {
-    padding: 35px 0;
+    padding: 70px 0 35px 0;
+  }
+
+  .quote__container {
+    max-width: 904px;
+  }
+
+  .quote__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .quote__text,
+  .quote__about {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .quote__text {
+    margin-bottom: 26px;
+  }
+
+  .quote__text-slogan {
+    font-size: 30px;
+    line-height: 36px;
+    padding-left: 25px;
+    margin-bottom: 13px;
+    max-width: 419px;
+    position: relative;
+  }
+
+  .quote__about {
+    margin-bottom: 26px;
+    max-width: 400px;
+  }
+
+  .quote__collage-img {
+    max-width: 420.4px;
+    height: auto;
+  }
+
+  .quote__block {
+    padding-left: 113px;
+  }
+
+  .quote__photo-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 35px;
+  }
+
+  .quote__cite-block {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 200px;
   }
 }
 
 @media (max-width: 768px) {
   .quote {
-    padding: 30px 0;
+    padding: 60px 0 30px 0;
+  }
+
+  .quote__container {
+    max-width: 688px;
+  }
+
+  .quote__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .quote__text,
+  .quote__about {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .quote__text {
+    margin-bottom: 20px;
+  }
+
+  .quote__about {
+    margin-bottom: 26px;
+    max-width: 250px;
+  }
+
+  .quote__collage-img {
+    max-width: 600px;
+    height: auto;
+  }
+
+  .quote__collage-img {
+    max-width: 382px;
+    height: auto;
+  }
+
+  .quote__text-slogan {
+    font-size: 32px;
+    line-height: 36px;
+    padding-left: 22px;
+    margin-bottom: 16px;
+    max-width: 688px;
+    position: relative;
+  }
+
+  .quote__block {
+    padding-left: 364px;
+  }
+
+  .quote__photo-img {
+    margin-right: 25px;
   }
 }
 
 @media (max-width: 320px) {
   .quote {
-    padding: 15px 0;
+    padding: 30px 0 15px 0;
+  }
+
+  .quote__container {
+    max-width: 280px;
+  }
+
+  .quote__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .quote__text,
+  .quote__about {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .quote__text {
+    margin-bottom: 10px;
+  }
+
+  .quote__about {
+    margin-bottom: 15px;
+    max-width: 280px;
+  }
+
+  .quote__collage-img {
+    max-width: 280px;
+    height: auto;
+  }
+
+  .quote__text-slogan {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 15px;
+    margin-bottom: 9px;
+    max-width: 280px;
+    position: relative;
+  }
+
+  .quote__block {
+    padding-left: 0;
+  }
+
+  .quote__photo-img {
+    width: 56px;
+    height: 56px;
+    margin-right: 11px;
+  }
+
+  .quote__cite-block {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 200px;
   }
 }

@@ -8,6 +8,8 @@
   margin: 0 auto;
 }
 
+
+
 .booking__title {
   margin-bottom: 45px;
 }
@@ -344,6 +346,12 @@
   border: 3px solid var(--white);;
   color: var(--white);
   transition: 0.5s;
+}
+
+.booking__name-block, 
+.booking__contacts-block  {
+  display: flex;
+  gap: 0;
 }
 
 @media (max-width: 1024px) {
