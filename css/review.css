@@ -148,13 +148,42 @@
   .review__title {
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 21px;
+    margin-bottom: 31px;
   }
 
   .review__img {
     width: 153px;
     height: 153px;
     object-position: 0 20%;
+  }
+
+  .review__author {
+    font-size: 14px;
+    line-height: 20px;
+    top: 171px;
+    left: 0;
+  }
+
+  .review__text {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 393px;
+    margin-left: 231px;
+  }
+
+  .review__gradient {
+    margin-left: 63px;
+  }
+
+  .review__gradient::after {
+    width: 153px;
+    height: 153px;
+    margin-bottom: 10px;
+  }
+
+  .review__item:not(:last-child) {
+    margin-bottom: 57px;
   }
 }
 
@@ -177,5 +206,26 @@
     width: 86px;
     height: 86px;
     object-position: 0 20%;
+  }
+
+  .review__gradient::after {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 10px;
+  }
+
+  .review__author {
+    font-size: 14px;
+    line-height: 20px;
+    top: 194px;
+    left: 0;
+  }
+
+  .review__text {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 393px;
+    margin-left: 169px;
   }
 }
