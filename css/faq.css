@@ -133,7 +133,7 @@
 
 @media (max-width: 768px) {
   .faq {
-    padding: 30px 0;
+    padding: 58px 0 30px 0;
   }
 
   .faq__container {
@@ -147,20 +147,25 @@
   }
 
   .faq__item:not(:last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 15px;
   }
 
   .faq__item {
     font-size: 18px;
     line-height: 24px;
     min-height: 70px;
-    padding-left: 54px;
+    padding: 23px 0 22px 59px;
+  }
+
+  .faq__item::after {
+    right: 65px;
+    transition: 0.5s;
   }
 }
 
 @media (max-width: 320px) {
   .faq {
-    padding: 15px 0;
+    padding: 44px 0 15px 0;
   }
   
   .faq__container {
