@@ -103,6 +103,36 @@
     width: 172px;
     height: 172px;
     object-position: 0 20%;
+    margin-bottom: 31px;
+  }
+
+  .review__img, .review__gradient::after {
+    width: 172px;
+    height: 172px;
+    margin-bottom: 10px;
+  }
+
+  .review__gradient {
+    margin-left: 23px;
+  }
+
+  .review__text {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 680px;
+    margin-left: 234px;
+  }
+
+  .review__item:not(:last-child) {
+    margin-bottom: 77px;
+  }
+
+  .review__author {
+    font-size: 18px;
+    line-height: 26px;
+    top: 194px;
+    left: -30px;
   }
 }
 

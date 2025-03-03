@@ -130,6 +130,7 @@
   .quote {
     padding: 70px 0 35px 0;
     overflow: hidden;
+    height: 610px;
   }
   
   .quote__container {
@@ -142,6 +143,7 @@
   .quote {
     padding: 60px 0 30px 0;
     overflow: hidden;
+    height: 504px;
   }
   
   .quote__container {
@@ -154,6 +156,7 @@
   .quote {
     padding: 30px 0 15px 0;
     overflow: hidden;
+    height: 504px;
   }
   
   .quote__container {
