@@ -1,6 +1,7 @@
 .quote {
   padding: 100px 0 50px 0;
   overflow: hidden;
+  height: 842px;
 }
 
 .quote__container {
@@ -8,9 +9,14 @@
   margin: 0 auto;
 }
 
-.quote__container-block {
-  display: flex;
-  vertical-align: top;
+.quote__container-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  grid-template-areas:
+    "header header"
+    "image description"
+    "image slogan";
+  column-gap: 80px
 }
 
 .quote__block-img {
@@ -123,6 +129,42 @@
 @media (max-width: 1024px) {
   .quote {
     padding: 70px 0 35px 0;
+    overflow: hidden;
+  }
+  
+  .quote__container {
+    max-width: 904px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote {
+    padding: 60px 0 30px 0;
+    overflow: hidden;
+  }
+  
+  .quote__container {
+    max-width: 688px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .quote {
+    padding: 30px 0 15px 0;
+    overflow: hidden;
+  }
+  
+  .quote__container {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 1024px) {
+  .quote {
+    padding: 70px 0 35px 0;
   }
 
   .quote__container {
@@ -184,15 +226,41 @@
     line-height: 26px;
     max-width: 220px;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .quote {
     padding: 60px 0 30px 0;
   }
 
   .quote__container {
     max-width: 688px;
+  }
+
+  .quote__container-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Центрируем по вертикали */
+    margin-bottom: 668px; /* Отступ снизу для цитаты */
+  }
+
+  .quote__block-img {
+    flex: 1; /* Занимает 1 часть доступного пространства */
+  }
+
+  .quote__collage-img {
+    max-width: 100%; /* Адаптивное изображение */
+    height: auto; /* Сохраняем пропорции */
+  }
+
+  .quote__block-text {
+    flex: 0.75; /* Занимает 2 части доступного пространства */
+    padding-left: 40px; /* Отступ между изображением и текстом */
+  }
+
+  .quote__blockq-footer {
+    width: 100%; /* Ширина блока цитаты */
+    margin-top: 20px;
   }
 
   .quote__title {
@@ -242,9 +310,9 @@
   .quote__block-img {
     margin-right: 25px;
   }
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .quote {
     padding: 30px 0 15px 0;
   }
@@ -306,4 +374,4 @@
     line-height: 16px;
     max-width: 200px;
   }
-}
+} */
