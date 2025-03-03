@@ -202,10 +202,29 @@
     margin-bottom: 16px;
   }
 
+  .review__list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+
+  .review__item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 280px;
+  }
+
   .review__img {
     width: 86px;
     height: 86px;
     object-position: 0 20%;
+  }
+
+  .review__gradient {
+    margin-left: 35%;
   }
 
   .review__gradient::after {
@@ -217,15 +236,23 @@
   .review__author {
     font-size: 14px;
     line-height: 20px;
-    top: 194px;
+    top: 95px;
     left: 0;
   }
 
+  .review__item-container {
+    margin-bottom: 35px;
+  }
+
+  .review__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
   .review__text {
-    margin-top: 30px;
+    margin-top: 0;
     font-size: 12px;
     line-height: 16px;
-    max-width: 393px;
-    margin-left: 169px;
+    max-width: 280px;
+    margin-left: 0;
   }
 }
