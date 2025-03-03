@@ -1,6 +1,15 @@
+.faq {
+  padding: 76px 0 29px 0;
+}
+
+.faq__container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .faq__title {
   line-height: 56px;
-  margin-bottom: 40px;
+  margin-bottom: 42px;
 }
 
 .faq__list {
@@ -72,16 +81,99 @@
   .faq {
     padding: 35px 0;
   }
+
+  .faq__container {
+    max-width: 904px;
+  }
+
+  .faq__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .faq__item {
+    background-color: var(--white);
+    color: #1C1A1A;
+    font-size: 20px;
+    line-height: 24px;
+    min-height: 69px;
+    padding-left: 30px;
+  }
+  
+  .faq__item:not(:last-child) {
+    margin-bottom: 17px;
+  }
+  
+  .faq__item:nth-child(2n) {
+    background-color: var(--white);
+    color: #1C1A1A;
+  }
+
+  .faq__item::after {
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 46px;
+    background-image: url("../img/img/plus-violet-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: calc(50% - 23px);
+    right: 70px;
+    transition: 0.5s;
+  }
 }
 
 @media (max-width: 768px) {
   .faq {
     padding: 30px 0;
   }
+
+  .faq__container {
+    max-width: 688px;
+  }
+
+  .faq__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  .faq__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .faq__item {
+    font-size: 18px;
+    line-height: 24px;
+    min-height: 70px;
+    padding-left: 54px;
+  }
 }
 
 @media (max-width: 320px) {
   .faq {
     padding: 15px 0;
+  }
+  
+  .faq__container {
+    max-width: 280px;
+  }
+
+  .faq__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .faq__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .faq__item {
+    font-size: 12px;
+    line-height: 16px;
+    min-height: 46px;
+    padding-left: 30px;
   }
 }
