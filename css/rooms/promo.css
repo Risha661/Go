@@ -12,7 +12,7 @@
 }
 
 .promo__block-vibes {
-  background-image: url("/img/img/vibes-promo.jpg");
+  background-image: url("../../img/img/vibes-promo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .promo__block-neon {
-  background-image: url("/img/img/neon-promo.jpg");
+  background-image: url("../../img/img/neon-promo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -28,7 +28,7 @@
 }
 
 .promo__block-wildwest {
-  background-image: url("/img/img/wildwest-promo.jpg");
+  background-image: url("../../img/img/wildwest-promo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -36,7 +36,7 @@
 }
 
 .promo__block-starwars {
-  background-image: url("/img/img/vibes-promo.jpg");
+  background-image: url("../../img/img/vibes-promo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
