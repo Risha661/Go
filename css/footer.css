@@ -368,6 +368,19 @@
   }
 
   .footer__location-text,
+  .footer__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer__contacts-block::before,
+  .footer__contacts-block:nth-child(2)::before,
+  .footer__location-text:not(:last-child):before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__location-text,
   .footer__contacts-block,
   .footer__contacts-block  {
     max-width: 280px;
@@ -397,6 +410,10 @@
   .footer__map {
     max-width: 280px;
     max-height: 194px;
+  }
+
+  .footer__map-image {
+    height: 194px;
   }
 
 }
