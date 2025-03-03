@@ -1,0 +1,21 @@
+.header__container-room-margin {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1024px) {
+  .header__container-room-margin {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container-room-margin {
+    margin-bottom: 4cqmax;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__container-room-margin {
+    margin-bottom: 20px;
+  }
+}

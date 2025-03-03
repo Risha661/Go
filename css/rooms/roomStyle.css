@@ -1,0 +1,18 @@
+
+@import "../style.css";
+@import "../booking.css";
+
+@import "../global.css";
+@import "../faq.css";
+@import "../header.css";
+@import "../footer.css";
+@import "../kinozal.css";
+@import "../quote.css";
+@import "../review.css";
+@import "../service.css";
+@import "../start.css";
+@import "../var.css";
+
+@import "./header.css";
+@import "./back.css";
+@import "./promo.css";
