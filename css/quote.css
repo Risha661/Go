@@ -1,7 +1,6 @@
 .quote {
   padding: 100px 0 50px 0;
   overflow: hidden;
-  height: 842px;
 }
 
 .quote__container {
@@ -13,15 +12,10 @@
   display: grid;
   grid-template-columns: 1fr 0.9fr;
   grid-template-areas:
-    "header header"
+    "title title"
     "image description"
-    "image slogan";
-  column-gap: 80px
-}
-
-.quote__block-img {
-  display: inline-block;
-  margin-right: 80px;
+    "image cite";
+  column-gap: 80px;
 }
 
 .quote__text {
@@ -42,11 +36,17 @@
 
 .quote__block-text {
   display: inline-block;
+  grid-area: description;
   max-width: 500px;
 }
 
 .quote__title {
+  grid-area: title;
   margin-bottom: 45px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .quote__text {
@@ -72,6 +72,8 @@
 }
 
 .quote__blockq {
+  max-width: 500px;
+  grid-area: cite;
   margin: 0;
   padding: 0;
 }
@@ -96,10 +98,11 @@
   font-size: 20px;
 }
 
-.quote__block {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 111px;
+.quote__block-img {
+  aspect-ratio: 600 / 596;
+  grid-area: image;
+  max-width: 600px;
+  max-height: 596px;
 }
 
 .quote__photo-img {
@@ -123,14 +126,14 @@
 
 .quote__collage-img {
   max-width: 600px;
-  height: auto;
+  height: 100%;
+  background-size: cover;
 }
 
-@media (max-width: 1024px) {
+ @media (max-width: 1024px) {
   .quote {
     padding: 70px 0 35px 0;
     overflow: hidden;
-    height: 610px;
   }
   
   .quote__container {
@@ -143,7 +146,6 @@
   .quote {
     padding: 60px 0 30px 0;
     overflow: hidden;
-    height: 763px;
   }
   
   .quote__container {
@@ -231,8 +233,8 @@
   }
 } */
 
-/* @media (max-width: 768px) {
-  .quote {
+@media (max-width: 768px) {
+  /* .quote {
     padding: 60px 0 30px 0;
   }
 
@@ -243,26 +245,26 @@
   .quote__container-block {
     display: flex;
     flex-wrap: wrap;
-    align-items: center; /* Центрируем по вертикали */
-    margin-bottom: 668px; /* Отступ снизу для цитаты */
+    align-items: center;
+    margin-bottom: 668px;
   }
 
   .quote__block-img {
-    flex: 1; /* Занимает 1 часть доступного пространства */
+    flex: 1;
   }
 
   .quote__collage-img {
-    max-width: 100%; /* Адаптивное изображение */
-    height: auto; /* Сохраняем пропорции */
+    max-width: 100%;
+    height: auto;
   }
 
   .quote__block-text {
-    flex: 0.75; /* Занимает 2 части доступного пространства */
-    padding-left: 40px; /* Отступ между изображением и текстом */
+    flex: 0.75;
+    padding-left: 40px;
   }
 
   .quote__blockq-footer {
-    width: 100%; /* Ширина блока цитаты */
+    width: 100%;
     margin-top: 20px;
   }
 
@@ -312,11 +314,11 @@
 
   .quote__block-img {
     margin-right: 25px;
-  }
-} */
+  } */
+}
 
-/* @media (max-width: 320px) {
-  .quote {
+@media (max-width: 320px) {
+  /* .quote {
     padding: 30px 0 15px 0;
   }
 
@@ -376,5 +378,5 @@
     font-size: 12px;
     line-height: 16px;
     max-width: 200px;
-  }
-} */
+  } */
+}
