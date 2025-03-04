@@ -47,6 +47,7 @@
   line-height: 50px;
   font-weight: 700;
   text-align: center;
+  padding-left: 50px;
 }
 
 .quote__text {
@@ -76,6 +77,12 @@
   grid-area: cite;
   margin: 0;
   padding: 0;
+}
+
+.quote__block {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
 }
 
 .quote__quote::before {
@@ -110,13 +117,11 @@
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
-  float: left;
-  margin-right: 29px;
 }
 
 .quote__cite-block {
   display: inline-block;
-  max-width: 266px;
+  max-width: 234px;
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
@@ -128,43 +133,6 @@
   max-width: 600px;
   height: 100%;
   background-size: cover;
-}
-
- @media (max-width: 1024px) {
-  .quote {
-    padding: 70px 0 35px 0;
-    overflow: hidden;
-  }
-  
-  .quote__container {
-    max-width: 904px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .quote {
-    padding: 60px 0 30px 0;
-    overflow: hidden;
-  }
-  
-  .quote__container {
-    max-width: 688px;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 320px) {
-  .quote {
-    padding: 30px 0 15px 0;
-    overflow: hidden;
-    height: 665px;
-  }
-  
-  .quote__container {
-    max-width: 280px;
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: 1024px) {
@@ -326,7 +294,7 @@
 }
 
 @media (max-width: 320px) {
-   .quote {
+  .quote {
     padding: 30px 0 15px 0;
   }
 
