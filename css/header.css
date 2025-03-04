@@ -97,6 +97,7 @@
 
   .header__navigation {
     align-self: center;
+    margin-top: -8px;
   }
 
   .header__navigation-list {
@@ -153,6 +154,10 @@
     width: 54px;
     height: 29px;
     z-index: 1;
+  }
+
+  .header__navigation {
+    margin-top: 0;
   }
 
   .header__navigation-list {

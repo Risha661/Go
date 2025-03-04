@@ -22,7 +22,7 @@
   position: relative;
   margin: 0;
   background-color: var(--white);
-  color: #1C1A1A;
+  color: var(--grey);
   font-weight: 700;
   font-size: 24px;
   line-height: 87px;
@@ -94,7 +94,7 @@
 
   .faq__item {
     background-color: var(--white);
-    color: #1C1A1A;
+    color: var(--grey);
     font-size: 20px;
     line-height: 24px;
     min-height: 69px;
@@ -107,7 +107,7 @@
   
   .faq__item:nth-child(2n) {
     background-color: var(--white);
-    color: #1C1A1A;
+    color: var(--grey);
   }
 
   .faq__item::after {

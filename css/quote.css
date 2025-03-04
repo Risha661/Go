@@ -153,6 +153,7 @@
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 26px;
+    padding-left: 0;
   }
 
   .quote__text,
@@ -186,6 +187,7 @@
 
   .quote__block {
     padding-left: 113px;
+    gap: 41px;
   }
 
 .quote__block-img {
@@ -193,13 +195,14 @@
   grid-area: image;
   max-width: 420px;
   max-height: 417px;
+  margin-top: 4px;
 }
 
   .quote__photo-img {
     width: 70px;
     height: 70px;
-    margin-right: 35px;
-    padding-top: 5px;
+    margin-right: 0;
+    padding-top: 0;
   }
 
   .quote__cite-block {

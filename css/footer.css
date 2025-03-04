@@ -262,6 +262,10 @@
   .footer__flex-block {
     margin-bottom: 93px;
   }
+
+  .footer__address {
+    margin-bottom: 38px;
+  }
 }
 
 @media (max-width: 768px) {
