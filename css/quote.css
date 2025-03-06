@@ -322,7 +322,7 @@
   .quote__title {
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 
   .quote__text,
@@ -332,7 +332,15 @@
   }
 
   .quote__text {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+  }
+
+  .quote__blockq {
+    padding-top: 5px;
+  }
+
+  .quote__block {
+    gap: 0;
   }
 
   .quote__about {
@@ -360,7 +368,7 @@
   }
 
   .quote__block-img {
-    margin-right: 11px;
+    margin: 0;
   }
 
   .quote__photo-img {
@@ -373,7 +381,11 @@
   .quote__cite-block {
     font-size: 12px;
     line-height: 16px;
-    max-width: 200px;
+    max-width: 176px;    
     padding-left: 11px;
+  }
+
+  .quote__block-text {
+    padding-top: 0;
   }
 }

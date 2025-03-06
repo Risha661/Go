@@ -674,7 +674,7 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    margin-left: -10px;
+    margin-left: 0;
   }
 
   .booking__legend-bottom {
@@ -780,4 +780,26 @@
     left: 0;
   }
   
+  .booking__legend-left {
+    text-align: left;
+  }
+
+  .booking__legend-bottom {
+    margin-left: -10px;
+  }
+
+  .booking__input-date, 
+  .booking__input-time, 
+  .booking__input-counts-people {
+    font-size: 14px;
+  }
+
+  .booking__name-block, 
+  .booking__contacts-block {
+    gap: 0;
+  }
+
+  .booking__space-between {
+    gap: 55px;
+  }
 }

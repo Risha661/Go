@@ -210,4 +210,8 @@
   .faq__item:nth-child(5) {
     padding: 15px 43px 15px 13px;
   }
+
+  .faq__item:nth-child(4) {
+    margin-bottom: 0;
+  }
 }
