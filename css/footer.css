@@ -297,7 +297,7 @@
   }
 
   .footer__location-text:not(:last-child):before {
-    left: 96px;
+    left: 94px;
     top: 11px;
   }
 
@@ -320,7 +320,7 @@
     text-align: center;
     margin: 0 auto;
     padding-left: 0;
-    margin-left: 22%;
+    margin-left: 23%;
   }
 
   .footer__location-block {

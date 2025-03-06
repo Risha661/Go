@@ -542,6 +542,7 @@
 
   .booking__name-block {
     max-width: 280px;
+    gap: 0;
   }
 
   .booking__flex-column-block {
@@ -602,8 +603,16 @@
     gap: 106px;
   }
 
+  .booking__fieldset-info {
+    margin-bottom: 52px;
+  }
+
   .booking__input-counts-people {
     max-width: 300px;
+  }
+
+  .booking__tel, .booking__name {
+    margin-bottom: 16px;
   }
 }
 
