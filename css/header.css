@@ -2,6 +2,10 @@
   padding-top: 38px;
 }
 
+.header-padding {
+  padding-top: 30px;
+}
+
 .header__container {
   display: flex;
   flex-direction: row;
@@ -89,6 +93,10 @@
     padding-top: 36px;
   }
 
+  .header-padding {
+    padding-top: 28px;
+  }
+
   .header__logo {
     max-width: 87px;
     max-height: 55px;
@@ -127,6 +135,10 @@
 @media (max-width: 768px) {
   .header {
     padding-top: 32px;
+  }
+
+  .header-padding {
+    padding-top: 24px;
   }
 
   .header__container {
@@ -168,6 +180,8 @@
   .header__btn-border {
     margin-top: 8px;
   }
+
+
 }
 
 @media (max-width: 320px) {
@@ -189,6 +203,8 @@
     height: 20px;
     top: 15px;
   }
+
+  .header__container-none
 
   .header__logo {
     max-width: 66px;

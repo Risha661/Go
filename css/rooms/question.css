@@ -116,7 +116,7 @@
   }
 
   .question__container-grid {
-    column-gap: 46px;
+    column-gap: 0;
   }
 
   .question__img-block {
@@ -143,7 +143,7 @@
 
 @media (max-width: 320px) {
   .question {
-    padding: 15px 0;
+    padding: 15px 0 0 0;
   }
 
   .question__container {
@@ -154,6 +154,11 @@
   .question__container-grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "image"
+      "description"
+      "text";
     row-gap: 15px;
   }
 
@@ -171,7 +176,7 @@
   .question__title {
     font-size: 14px;
     line-height: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 
   .question__description {
