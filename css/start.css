@@ -319,9 +319,14 @@
     margin-bottom: 6px;
   }
 
+  .start__container {
+    min-height: 204px;
+    max-height: 537px;
+  }
+
   .start__container::after {
     max-width: 300px;
-    max-height: 60%;
+    max-height: 100%;
     right: 30px;
     top: 60px;
   }
