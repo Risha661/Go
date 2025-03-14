@@ -51,7 +51,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .promo {
     padding: 20px 0 35px 0;
   }

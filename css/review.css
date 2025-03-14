@@ -4,8 +4,7 @@
 }
 
 .review__container {
-  max-width: 980px;
-  margin: 0 auto;
+  padding: 0 100px;
 }
 
 .review__title {
@@ -84,13 +83,14 @@
   width: 280px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .review {
     padding: 35px 0;
   }
 
   .review__container {
     max-width: 751px;
+    padding: 0 74px;
   }
 
   .review__title {
@@ -143,6 +143,7 @@
 
   .review__container {
     max-width: 688px;
+    padding: 63px;
   }
 
   .review__title {
@@ -194,6 +195,7 @@
 
   .review__container {
     max-width: 280px;
+    padding: 0 20px;
   }
 
   .review__title {

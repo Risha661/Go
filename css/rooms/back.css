@@ -14,7 +14,7 @@
   line-height: 28px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .back {
     max-width: 904px;
     margin: 0 auto;

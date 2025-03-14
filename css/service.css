@@ -2,11 +2,6 @@
   padding: 50px 0;
 }
 
-.service__container {
-  margin: 0 auto;
-  max-width: 1180px;
-}
-
 .service__title {
   margin: 0 auto;
   max-width: 880px;
@@ -121,7 +116,7 @@
   transition: 0.5s;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .service {
     padding: 35px 0;
   }
@@ -175,11 +170,6 @@
     padding: 30px 0;
   }
 
-  .service__container {
-    max-width: 688px;
-    margin: 0 auto;
-  }
-
   .service__title {
     max-width: 525px;
     font-size: 24px;
@@ -225,11 +215,6 @@
 @media (max-width: 320px) {
   .service {
     padding: 15px 0;
-  }
-
-  .service__container {
-    max-width: 280px;
-    margin: 0 auto;
   }
 
   .service__title {

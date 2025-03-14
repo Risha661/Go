@@ -3,11 +3,6 @@
   background-color: var(--bold-purple);
 }
 
-.booking__container {
-  max-width: 1180px;
-  margin: 0 auto;
-}
-
 .booking__title {
   margin-bottom: 45px;
 }
@@ -344,14 +339,9 @@
   gap: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .booking {
     padding: 58px 0;
-  }
-
-  .booking__container {
-    max-width: 904px;
-    margin: 0 auto;
   }
 
   .booking__fieldset-info {
@@ -549,11 +539,6 @@
     max-width: 688px;
   }
 
-  .booking__container {
-    max-width: 688px;
-    margin: 0 auto;
-  }
-
   .booking__title {
     font-size: 24px;
     line-height: 36px;
@@ -648,11 +633,6 @@
 
   .booking__fieldset-box {
     margin-bottom: 30px;
-  }
-
-  .booking__container {
-    max-width: 280px;
-    margin: 0 auto;
   }
 
   .booking__title {
