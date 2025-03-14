@@ -162,7 +162,16 @@
   .service__item:nth-child(5) .service__item-text {
     top: 83px;
   }
+}
 
+@media (max-width: 950px) {
+  .service__item-text {
+    top: 67%;
+    left: 7%;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 247px;
+  }
 }
 
 @media (max-width: 768px) {
