@@ -103,8 +103,8 @@
 .quote__block-img {
   aspect-ratio: 1 / 1;
   grid-area: image;
-  max-width: 600px;
-  max-height: 596px;
+  min-width: 600px;
+  min-height: 596px;
 }
 
 .quote__photo-img {
@@ -116,7 +116,7 @@
 
 .quote__cite-block {
   display: inline-block;
-  max-width: 234px;
+  min-width: 234px;
   font-style: normal;
   font-size: 20px;
   font-weight: 400;
@@ -125,7 +125,7 @@
 }
 
 .quote__collage-img {
-  max-width: 600px;
+  width: 100%;
   height: 100%;
   background-size: cover;
 }
@@ -171,21 +171,15 @@
     max-width: 400px;
   }
 
-  .quote__collage-img {
-    max-width: 420.4px;
-    height: auto;
-  }
-
   .quote__block {
-    padding-left: 113px;
     gap: 41px;
   }
 
 .quote__block-img {
   aspect-ratio: 1 / 1;
   grid-area: image;
-  max-width: 420px;
-  max-height: 417px;
+  min-width: 420px;
+  min-height: 417px;
   margin-top: 4px;
 }
 
@@ -203,7 +197,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .quote {
     padding: 60px 0 30px 0;
   }
@@ -255,8 +249,6 @@
 
   .quote__collage-img {
     aspect-ratio: 1 / 1;
-    max-width: 382px;
-    max-height: 380px;
     grid-area: image;
   }
 
@@ -286,9 +278,9 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 700px) {
   .quote {
-    padding: 30px 0 15px 0;
+    padding: 60px 0 30px 0;
   }
 
   .quote__container-grid {
@@ -300,6 +292,52 @@
     "image"
     "cite";
     row-gap: 15px;
+  }
+
+  .quote__block-img {
+    width: 100%;
+    height: auto;
+    max-height: unset;
+  }
+
+  .quote__block-text {
+    max-width: 100%;
+    padding-top: 15px;
+  }
+
+  .quote__collage-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .quote__about {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .quote__block {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote {
+    padding: 30px 0 15px 0;
+  }
+
+  .quote__container-grid {
+    justify-content: center;
+    grid-template-columns: 280px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "title"
+    "description"
+    "image"
+    "cite";
+    row-gap: 15px;
+    padding: 0 20px;
+    margin: 0 auto;
   }
 
   .quote__title {
@@ -331,11 +369,6 @@
     margin-bottom: 0;
   }
 
-  .quote__collage-img {
-    max-width: 280px;
-    height: auto;
-  }
-
   .quote__text-slogan {
     font-size: 18px;
     line-height: 26px;
@@ -352,7 +385,9 @@
 
   .quote__block-img {
     margin: 0;
-  }
+    min-width: 280px;
+    min-height: 100%;
+}
 
   .quote__photo-img {
     margin: 0;
