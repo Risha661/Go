@@ -151,12 +151,20 @@
 
 @media (max-width: 768px) {
   .review {
-    padding: 30px 0;
+    padding: 30px 0 0 0;
   }
 
   .review__container {
     max-width: 688px;
-    padding: 63px;
+  }
+
+  .review__list {
+    padding-left: 29px;
+    gap: 26px;
+  }
+
+  .review__item {
+    gap: 15px;
   }
 
   .review__title {
@@ -181,17 +189,11 @@
     font-size: 16px;
     line-height: 22px;
     max-width: 393px;
-    margin-left: 231px;
-  }
-
-  .review__gradient {
-    margin-left: 63px;
   }
 
   .review__gradient::after {
     width: 153px;
     height: 153px;
-    margin-bottom: 10px;
   }
 }
 

@@ -296,6 +296,7 @@
     padding: 11px 35px 11px 34px;
     margin-left: 0;
     border-radius: 5px;
+    bottom: 97px;
   }
 
   .start__two-span-block {
@@ -309,7 +310,7 @@
   .start__container::after {
     max-width: 409px;
     max-height: 479px;
-    right: 40px;
+    right: 47px;
     top: 60px;
   }
 }

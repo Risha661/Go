@@ -456,7 +456,7 @@
   }
 
   .booking__fieldset-zal {
-    margin-bottom: 49px;
+    margin-bottom: 47px;
   }
 
   .booking__date-block  {
@@ -468,9 +468,11 @@
     max-width: 688px;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 272px 151px;
-    column-gap: 66px;
-    row-gap: 32px;
+    grid-template-rows: auto auto;
+    column-gap: 88px;
+    row-gap: 30px;
+    padding-left: 0;
+    justify-content: flex-start;
   }
 
   .booking__fieldset-console {
@@ -487,6 +489,7 @@
 
   .booking__fieldset-additionally {
     gap: 26px;
+    padding-left: 0;
   }
 
   .booking__fieldset-games {
@@ -549,7 +552,7 @@
 
   .booking__btn-zal {
     padding: 9px 20px;
-    height: 38px;
+    max-height: 38px;
     font-size: 16px;
     line-height: 20px;
     max-width: 150px;
@@ -607,7 +610,7 @@
 
   .booking__btn-zal {
     padding: 9px 20px;
-    height: auto;
+    max-height: auto;
     font-size: 16px;
     line-height: 20px;
     max-width: 150px;

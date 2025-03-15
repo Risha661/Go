@@ -185,8 +185,8 @@
 .quote__block-img {
   aspect-ratio: 1 / 1;
   grid-area: image;
-  min-width: 420px;
-  min-height: 417px;
+  min-width: 382px;
+  min-height: 380px;
   margin-top: 4px;
 }
 
@@ -224,7 +224,7 @@
     grid-area: cite;
     max-width: 688px;
     gap: 30px;
-    padding-top: 12px;
+    padding-top: 10px;
   }
 
   .quote__slogan-container {
@@ -234,7 +234,7 @@
   .quote__block-text {
     max-width: 278px;
     grid-area: description;
-    padding-top: 39px;
+    padding-top: 34px;
   }
 
   .quote__title {
@@ -256,6 +256,10 @@
 
   .quote__collage-img {
     aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
+    max-width: 382px;
+    max-height: 380px;
     grid-area: image;
   }
 
@@ -277,6 +281,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-left: 0;
+    gap: 31px;
   }
 
   .quote__photo-img {
