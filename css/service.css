@@ -274,7 +274,7 @@
     aspect-ratio: 137 / 75;
     align-items: center;
     padding: 0;
-    padding-top: 10px;
+    padding-top: 0;
   }
 
   .service__item-text {

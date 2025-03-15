@@ -318,8 +318,8 @@
   }
 
   .quote__collage-img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
   }
 
@@ -411,11 +411,12 @@
   .quote__cite-block {
     font-size: 12px;
     line-height: 16px;
-    max-width: 176px;    
+    max-width: 161px;    
     padding-left: 11px;
   }
 
   .quote__block-text {
     padding-top: 0;
+    margin-bottom: 0;
   }
 }

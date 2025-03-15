@@ -47,10 +47,6 @@
   justify-content: center;
 }
 
-.booking__fieldset-console {
-  min-width: 280px;
-}
-
 .booking__fieldset-games {
   display: flex;
   flex-direction: column;
@@ -620,6 +616,17 @@
 
   .booking__fieldset-box {
     max-width: 100%;
+  }
+
+  .booking__fieldset-container {
+      max-width: 600px;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      column-gap: 88px;
+      row-gap: 30px;
+      padding-left: 0;
+      justify-content: flex-start;
   }
 }
 

@@ -376,6 +376,7 @@
     font-size: 10px;
     line-height: 12px;
     padding: 8px 13px 7px 13px;
+    bottom: 18px;
   }
 
   .start__container::after {
