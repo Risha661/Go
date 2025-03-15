@@ -47,7 +47,7 @@
   transform: translateX(-50%);
   z-index: 2;
   transition: background-image 0.3s;
-  margin-top: 50px;
+  bottom: 89px;
 }
 
 .start__link-path:hover {
@@ -150,6 +150,8 @@
   cursor: pointer; 
   border: none; 
   transition: box-shadow 0.3s ease;
+  position: absolute;
+  bottom: 150px;
 }
 
 .start__btn-violet:hover {
@@ -219,6 +221,7 @@
     line-height: 30px;
     padding: 17px 48px;
     margin-left: 39px;
+    bottom: 60px;
   }
 
   .start__link-path {
@@ -226,7 +229,7 @@
     height: 67px;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 22px;
+    bottom: 46px;
   }
 }
 

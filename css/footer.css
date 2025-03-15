@@ -108,11 +108,12 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 26px;
+  gap: 22px;
 }
 
 .footer__item {
   display: inline-block;
+  border: 1px solid transparent;
 }
 
 .footer__link-cite {
