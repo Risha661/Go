@@ -79,7 +79,7 @@
   }
 
   .question__container-grid {
-    column-gap: 30px;
+    column-gap: 0;
   }
 
   .question__img-block {
@@ -141,7 +141,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .question {
     padding: 15px 0 0 0;
   }

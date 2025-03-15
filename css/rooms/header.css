@@ -4,9 +4,11 @@
 
 @media (max-width: 1200px) {
   .header__container-room-margin {
-    margin-bottom: 50px;
+    margin-bottom: 52px;
   }
+}
 
+@media (max-width: 900px) {
   .header__container-room-margin {
     margin-bottom: 43px;
   }
@@ -14,6 +16,6 @@
 
 @media (max-width: 320px) {
   .header__container-room-margin {
-    margin-bottom: 62px;
+    margin-bottom: 20px;
   }
 }

@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .promo__block-neon {
@@ -24,7 +24,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .promo__block-wildwest {
@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .promo__block-starwars {
