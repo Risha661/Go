@@ -36,10 +36,10 @@
   transition: 0.5s;
 }
 
-.header__navigation-link:visited {
+/* .header__navigation-link:visited {
   color: var(--purple);
   transition: 0.5s;
-}
+} */
 
 .header__navigation-link:active {
   color: var(--span-color);

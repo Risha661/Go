@@ -65,10 +65,10 @@
   transition: 0.5s;
 }
 
-.kinozal__link:visited {
+/* .kinozal__link:visited {
   color: var(--purple);
   transition: 0.5s;
-}
+} */
 
 .kinozal__link-text {
   display: inline-block;

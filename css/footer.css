@@ -81,11 +81,11 @@
   transition: 0.5s;
 }
 
-.footer__link-phone:visited,
+/* .footer__link-phone:visited,
 .footer__link-mail:visited {
   color: var(--purple);
   transition: 0.5s;
-}
+} */
 
 .footer__contacts-block::before {
   content: '';
@@ -124,10 +124,10 @@
   transition: 0.5s;
 }
 
-.footer__link-cite:visited {
+/* .footer__link-cite:visited {
   color: var(--light-purple);
   transition: 0.5s;
-}
+} */
 
 .footer__link-cite:hover {
   color: var(--white-darkened);
