@@ -4,11 +4,11 @@ const navigationList = $('.header__navigation');
 
 btmMenu.click(function() {
   $(this).toggleClass('header__btn-menu-close');
-  navigationList.toggle();
+  navigationList.slideToggle(300);
 });
 
 btnClose.click(function() {
-  navigationList.hide();
+  navigationList.slideUp(300);
   btmMenu.removeClass('header__btn-menu-close');
 });
 

@@ -45,6 +45,23 @@
         </nav>
         <button type="button" class="header__button header__btn-border">Заказать звонок</button>
       </div>
+      <div class=" header__modal modal">
+        <div class="modal__container">
+          <button class="modal__btn modal__btn-close" type="button"></button>
+          <h2 class="modal__title">Заказать звонок</h2>
+          <div class="modal__wrapper">
+            <div class="modal__name">
+              <label class="modal__name-text" for="modal-name">Имя</label>
+              <input id="modal-name" class="modal__input-name" type="text" name="name" placeholder="Введите имя" required>
+            </div>
+            <div class="modal__phone">
+              <label class="modal__phone-text" for="modal-tel">Телефон</label>
+              <input  class="modal__phone-input" id="modal-tel" type="tel" name="tel" placeholder="Введите номер телефона" required>
+            </div>
+          </div>
+          <button class="modal__submit" type="submit">позвонить мне</button>
+        </div>
+      </div>
     </header>
     <main>
       <section class="start">
@@ -376,23 +393,7 @@
           </div>
         </div>
 
-        <div class="modal">
-          <div class="modal__container">
-            <button class="modal__btn modal__btn-close" type="button">✖</button>
-            <h2 class="modal__title">Заказать звонок</h2>
-            <div class="modal__wrapper">
-              <div class="modal__name">
-                <label class="modal__label-text" for="modal-name">Имя</label>
-                <input id="modal-name" class="modal__input-name" type="text" name="name" placeholder="Введите имя" required>
-              </div>
-              <div class="modal__phone">
-                <label class="modal__phone-text" for="modal-tel">Телефон</label>
-                <input  class="modal__phone-input" id="modal-tel" type="tel" name="tel" placeholder="Введите номер телефона" required>
-              </div>
-            </div>
-            <button class="modal__submit" type="submit">позвонить мне</button>
-          </div>
-        </div>
+
       <!-- <section>
         <form id="check-contacts" action="https://jsonplaceholder.typicode.com/posts" method="POST">
           <h2>Заказать звонок</h2>
