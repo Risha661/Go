@@ -1,0 +1,39 @@
+.modal-menu {
+  display: none;
+}
+
+.modal-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  justify-content: center;
+  align-items: center;
+  max-width: 688px;
+  padding-top: 58px;
+  padding-bottom: 59px;
+  margin: 0 auto;
+}
+
+.modal-menu__link {
+  font-size: 22px;
+  text-align: center;
+  line-height: 22px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.modal-menu__btn {
+  background-color: transparent;
+  border: solid 3px var(--light-purple);
+  border-radius: 10px;
+  padding: 11px 23px 12px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+}
