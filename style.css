@@ -1,0 +1,83 @@
+@import "./style.css";
+@import "./css/faq.css";
+@import "./css/header.css";
+@import "./css/start.css";
+@import "./css/booking.css";
+@import "./css/kinozal.css";
+@import "./css/footer.css";
+@import "./css/quote.css";
+@import "./css/review.css";
+
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #1b1a1b;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+h1, h2, h3, p, figure, fieldset {
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+#about {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 0 auto;
+}

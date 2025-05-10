@@ -1,0 +1,68 @@
+.kinozal__list {
+  margin: 0;
+  padding: 0;
+  width: 1180px;
+}
+
+.kinozal__title {
+  width: 1180px;
+  margin-bottom: 60px;
+}
+
+.kinozal__item {
+  float: left;
+  width: 580px;
+  height: 349px;
+  margin-bottom: 20px;
+}
+
+.kinozal__item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.kinozal__item:nth-child(3),
+.kinozal__item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.kinozal__item-vibes {
+  background-image: url("../img/img/80svibes.jpg");
+}
+
+.kinozal__item-starwars {
+  background-image: url("../img/img/starwars.jpg");
+}
+
+.kinozal__item-wildwest {
+  background-image: url("../img/img/wildwest.jpg");
+}
+
+.kinozal__item-neon {
+  background-image: url("../img/img/neonstyle.jpg");
+}
+
+.kinozal__link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 135px 0; 
+}
+
+.kinozal__link-text {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  max-width: 448px;
+  text-transform: uppercase;
+}
+
+.kinozal__list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
